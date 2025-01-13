@@ -1,5 +1,6 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://nitishspatkar.github.io/" 
+title: Dr. Nitish Patkar
+paginate: 20
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -10,25 +11,19 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: Research Activities
+          url: research/
+          weight: 5   
+        - name: Innovation Projects
+          url: innovation-projects/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Student Projects
+          url: student-projects/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    description: "I am currently serving as a research associate at FHNW (University of Applied Sciences and Arts, Northwestern Switzerland) within the Institute for Interactive Technologies."
+    author: Nitish Patkar
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -42,7 +37,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["research","innovation-projects","student-projects"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -52,48 +47,32 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          title: Dr Nitish Patkar
+          subtitle: "Research Associate at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
+          imageUrl: "circle.png"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: Research Activities
+              url: research/
+            - name: Innovation Projects
+              url: innovation-projects/
+            - name: Student Projects
+              url: student-projects/
 
     socialIcons:
         - name: CV
-          url: cv.pdf
+          url: /pdfs/Patkar_CV_3_En.pdf
+        - name: CV
+          url: /pdfs/Patkar_research_CV_En.pdf
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
+          url: mailto:nitishspatkar@gmail.com
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.com/citations?user=y4KM2XAAAAAJ&hl=en
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://github.com/nitishspatkar
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/nitishpatkar/ 
 
     assets:
         disableScrollBarStyle: true
@@ -101,18 +80,57 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Nitish Patkar"
       icon: favicon.ico
       iconHeight: 18
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  blackFriday:
+    angledQuotes: false
+    extensions: null
+    extensionsMask: null
+    footnoteAnchorPrefix: ""
+    footnoteReturnLinkContents: ""
+    fractions: true
+    hrefTargetBlank: false
+    latexDashes: true
+    nofollowLinks: false
+    noreferrerLinks: false
+    plainIDAnchors: true
+    skipHTML: false
+    smartDashes: true
+    smartypants: true
+    smartypantsQuotesNBSP: false
+    taskLists: true
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: autumn
+    tabWidth: 4
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2

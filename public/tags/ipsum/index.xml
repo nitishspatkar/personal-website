@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ipsum on Dr. Nitish Patkar</title>
+    <link>http://localhost:1313/tags/ipsum/</link>
+    <description>Recent content in Ipsum on Dr. Nitish Patkar</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Research Activities</title>
+      <link>http://localhost:1313/research/book1/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/book1/</guid>
+      <description>&lt;p&gt;Take a look at my &lt;a href=&#34;https://scholar.google.de/citations?user=y4KM2XAAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar Profile&lt;/a&gt; for my most recent publications.&lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2024&#34;&gt;2024&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2025 (PC member)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ) 2025 (PC member)&lt;/li&gt;
+&lt;li&gt;Science of Computer Programming Journal, 2024 (reviewer)&lt;/li&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2024 (PC member)&lt;/li&gt;
+&lt;li&gt;The International ICT4S conference 2024 (PC member)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ) 2024 (PC member)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2023&#34;&gt;2023&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2023 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;li&gt;Science of Computer Programming Journal, 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Empirical Software Engineering Journal (EMSE), 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Information and Software Technology Journal (IST), 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ), 2023 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2022&#34;&gt;2022&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2022 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;li&gt;The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2020 (subreviewer with Prf. Oscar Nierstrasz)&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h4&gt;
+&lt;p&gt;Since June 2024, I am a member of the special interest group (SIG) on sustainability at the International Requirements Engineering Board (IREB).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research Activities</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/test/</guid>
+      <description>&lt;p&gt;Take a look at my &lt;a href=&#34;https://scholar.google.de/citations?user=y4KM2XAAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar Profile&lt;/a&gt; for my most recent publications.&lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2024&#34;&gt;2024&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2025 (PC member)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ) 2025 (PC member)&lt;/li&gt;
+&lt;li&gt;Science of Computer Programming Journal, 2024 (reviewer)&lt;/li&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2024 (PC member)&lt;/li&gt;
+&lt;li&gt;The International ICT4S conference 2024 (PC member)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ) 2024 (PC member)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2023&#34;&gt;2023&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2023 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;li&gt;Science of Computer Programming Journal, 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Empirical Software Engineering Journal (EMSE), 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Information and Software Technology Journal (IST), 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ), 2023 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2022&#34;&gt;2022&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2022 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;li&gt;The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2020 (subreviewer with Prf. Oscar Nierstrasz)&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h4&gt;
+&lt;p&gt;Since June 2024, I am a member of the special interest group (SIG) on sustainability at the International Requirements Engineering Board (IREB).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

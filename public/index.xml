@@ -1,75 +1,136 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Moritz-Maria von Igelfeld</title>
-    <link>https://pascalmichaillat.org/hugo-website/</link>
-    <description>Recent content on Moritz-Maria von Igelfeld</description>
-    <generator>Hugo -- 0.139.0</generator>
+    <title>Dr. Nitish Patkar</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Dr. Nitish Patkar</description>
+    <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://pascalmichaillat.org/hugo-website/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Location</title>
-      <link>https://pascalmichaillat.org/hugo-website/location/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/location/</guid>
-      <description>Professor Dr von Igelfeld&amp;#39;s mailing and office addresses at the Institute of Romance Philology.</description>
+      <title>Innovation Projects</title>
+      <link>http://localhost:1313/innovation-projects/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/innovation-projects/</guid>
+      <description>&lt;p&gt;I have been part of and contributing to the following Innosuisse funded innovation projects:&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;ceex&#34;&gt;CEEX&lt;/h4&gt;
+&lt;p&gt;Clean Energy Exchange (CEEX) is an energy trading platform that enables private households, among others, to store, buy and sell their own sustainably produced energy among themselves. Thanks to a powerful algorithm developed with ETH Zurich, prices are calculated in real time, individual trading strategies are made possible and the best electricity price for each player is guaranteed.
+&lt;a href=&#34;https://www.ceex.ch/&#34; target=&#34;_blank&#34;&gt;Read more about CEEX&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Office Hours</title>
-      <link>https://pascalmichaillat.org/hugo-website/officehours/</link>
-      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/officehours/</guid>
-      <description>Schedule and location for Professor Dr von Igelfeld&amp;#39;s office hours.</description>
+      <title>Research Activities</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>&lt;p&gt;Take a look at my &lt;a href=&#34;https://scholar.google.de/citations?user=y4KM2XAAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar Profile&lt;/a&gt; for my most recent publications.&lt;br&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h4&gt;
+&lt;p&gt;Since June 2024, I am a member of the special interest group (SIG) on sustainability at the International Requirements Engineering Board (IREB).&lt;/p&gt;
+&lt;p&gt;I am a local chair for XP2025 conference.&lt;/p&gt;
+&lt;p&gt;I have assisted Prof. Martin Glinz in grading Requirements Engineering exams at the University of Zurich.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4 id=&#34;2024&#34;&gt;2024&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2025 (PC member)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ) 2025 (PC member)&lt;/li&gt;
+&lt;li&gt;Science of Computer Programming Journal, 2024 (reviewer)&lt;/li&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2024 (PC member)&lt;/li&gt;
+&lt;li&gt;The International ICT4S conference 2024 (PC member)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ) 2024 (PC member)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2023&#34;&gt;2023&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2023 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;li&gt;Science of Computer Programming Journal, 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Empirical Software Engineering Journal (EMSE), 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Information and Software Technology Journal (IST), 2023 (reviewer)&lt;/li&gt;
+&lt;li&gt;Requirements Engineering: Foundation for Software Quality (REFSQ), 2023 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2022&#34;&gt;2022&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2022 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
+&lt;li&gt;The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2020 (subreviewer with Prf. Oscar Nierstrasz)&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Your Inner Hedgehog</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper3/</link>
-      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper3/</guid>
-      <description>This paper describes the inner hedgehog, a psychological condition widespread in academia. Published in the Journal of Socio-Experimental Psychology, 2021.</description>
+      <title>Student Projects</title>
+      <link>http://localhost:1313/student-projects/</link>
+      <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/student-projects/</guid>
+      <description>&lt;h4 id=&#34;2024&#34;&gt;2024&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;From Search to Trust: towards sustainable B2B matchmaking&amp;rdquo; Marc Föry and Yves Hunziker &lt;a href=&#34;http://localhost:1313/pdfs/IP5_B2b_trust.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Innovative Prompt Management for LLMs&amp;rdquo; Jack Gläser and Simon Lüscher &lt;a href=&#34;http://localhost:1313/pdfs/IP5_FS24_Simon_Jack.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;Artha - The new way of water&amp;rdquo; Jan Zimmerman and Sven Ziörjen &lt;a href=&#34;http://localhost:1313/pdfs/IP5_FS24_artha_zioerjen_zimmermann.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;AI for RE - Providing AI Support for the Future Requirements Engineer&amp;rdquo; Nathanael Düblin and Nadja Kälin &lt;a href=&#34;http://localhost:1313/pdfs/IP6_AI4RE.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;ldquo;&amp;ldquo;What do you think, dear developer?&amp;rdquo;&amp;ndash; A Feedback-Driven Approach for better software development&amp;rdquo; Petra Kohler and Nick Bauer &lt;a href=&#34;http://localhost:1313/pdfs/IP6_FS24_baur_Kohler.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>List of Irregular Verbs Across Romance Languages</title>
-      <link>https://pascalmichaillat.org/hugo-website/data/data1/</link>
-      <pubDate>Thu, 07 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/data/data1/</guid>
-      <description>This dataset contains all irregular verbs in known Romance languages.</description>
+      <title></title>
+      <link>http://localhost:1313/short_bio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/short_bio/</guid>
+      <description>&lt;h3 id=&#34;short-biography&#34;&gt;Short Biography&lt;/h3&gt;
+&lt;p&gt;I am currently serving as a research associate at University of Applied Sciences and Arts, Northwestern Switzerland (FHNW) within the &lt;a href=&#34;https://www.fhnw.ch/en/about-fhnw/schools/school-of-engineering/institutes/institute-for-interactive-technologies&#34; target=&#34;_blank&#34;&gt;Institute for Interactive Technologies&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I earned my Ph.D. from the University of Bern. Between 2018 and 2022, I was a member of the &lt;a href=&#34;https://scg.unibe.ch/&#34; target=&#34;_blank&#34;&gt;Software Composition Group&lt;/a&gt; led by Prof. Oscar Nierstrasz. My work primarily focuses on requirements engineering, with a strong interest in UX, digital sustainability, and improving agile way of development.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Unusual Uses For Olive Oil</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper1/</link>
-      <pubDate>Tue, 15 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper1/</guid>
-      <description>This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013.</description>
-    </item>
-    <item>
-      <title>The Finer Points of Sausage Dogs</title>
-      <link>https://pascalmichaillat.org/hugo-website/papers/paper2/</link>
-      <pubDate>Tue, 28 Dec 2004 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/papers/paper2/</guid>
-      <description>This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004.</description>
-    </item>
-    <item>
-      <title>Lectures at the Villa of Reduced Circumstances</title>
-      <link>https://pascalmichaillat.org/hugo-website/courses/course1/</link>
-      <pubDate>Mon, 10 Mar 2003 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/courses/course1/</guid>
-      <description>This graduate course presents classical results in Romance philology.</description>
-    </item>
-    <item>
-      <title>Portugese Irregular Verbs</title>
-      <link>https://pascalmichaillat.org/hugo-website/books/book1/</link>
-      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/books/book1/</guid>
-      <description>This book discusses Portugese irregular verbs in great details.</description>
-    </item>
-    <item>
-      <title>Profanity in Early Irish</title>
-      <link>https://pascalmichaillat.org/hugo-website/courses/course2/</link>
-      <pubDate>Sat, 16 Jun 1990 00:00:00 +0000</pubDate>
-      <guid>https://pascalmichaillat.org/hugo-website/courses/course2/</guid>
-      <description>This undergraduate course discusses profanity in Early Irish.</description>
+      <title></title>
+      <link>http://localhost:1313/work_experiences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/work_experiences/</guid>
+      <description>&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;Ph.D.&lt;/strong&gt;
+&lt;br&gt;
+&lt;strong&gt;University of Bern, Switzerland&lt;/strong&gt;
+&lt;br&gt;
+March 2018-March 2022
+&lt;br&gt;
+&lt;em&gt;Research topics&lt;/em&gt;: requirements engineering, domain modelling, collaborative development&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M.Sc.&lt;/strong&gt;
+&lt;br&gt;
+&lt;strong&gt;University of Paderborn, Germany&lt;/strong&gt;
+&lt;br&gt;
+March 2014-February 2018
+&lt;br&gt;
+&lt;em&gt;Focus point&lt;/em&gt;: Information and database systems&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;B.E.&lt;/strong&gt;
+&lt;br&gt;
+&lt;strong&gt;University of Mumbai, India&lt;/strong&gt;
+&lt;br&gt;
+2009-2012
+&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&#34;professional-experience&#34;&gt;Professional experience&lt;/h3&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;University of Applied Sciences and Arts North-western Switzerland (FHNW)&lt;/strong&gt;, as a &lt;strong&gt;Research associate&lt;/strong&gt;
+&lt;br&gt;
+March 2022-Present
+&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Co-Teaching Requirements Engineering course at bachelor’s level.&lt;/li&gt;
+&lt;li&gt;Co-teaching for the Certificate of Advanced Studies (CAS) in Digitalisierung und Nachhaltigkeit&lt;/li&gt;
+&lt;li&gt;Teaching as an Agile Coach for semester 3 and 4 students for a yearlong industry project.&lt;/li&gt;
+&lt;li&gt;Teaching as an Team Coach for semester 1 and 1 students for a yearlong internal project focused on RUP.&lt;/li&gt;
+&lt;li&gt;Proposing and supervising bachelor thesis and guiding students through the whole process of problem identification and proposing and validating a solution.&lt;/li&gt;
+&lt;li&gt;Managing several projects with our industry partners.&lt;/li&gt;
+&lt;li&gt;Preparing project proposals to acquire funding.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;University of Bern&lt;/strong&gt;, as a &lt;strong&gt;Research assistant&lt;/strong&gt;
+&lt;br&gt;
+February 2018-February 2022
+&lt;br&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

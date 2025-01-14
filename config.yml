@@ -59,6 +59,8 @@ params:
               url: innovation-projects/
             - name: Student Projects
               url: student-projects/
+            - name: Random
+              url: random/  
 
     socialIcons:
         - name: CV

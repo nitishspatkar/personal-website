@@ -13,13 +13,16 @@ menu:
     main:
         - name: Research Activities
           url: research/
-          weight: 5   
+          weight: 1   
         - name: Innovation Projects
           url: innovation-projects/
           weight: 2
         - name: Student Projects
           url: student-projects/
           weight: 3
+        - name: Random
+          url: random/
+          weight: 4  
 
 params:
     description: "I am currently serving as a research associate at FHNW (University of Applied Sciences and Arts, Northwestern Switzerland) within the Institute for Interactive Technologies."

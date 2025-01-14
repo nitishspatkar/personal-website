@@ -62,9 +62,9 @@ params:
 
     socialIcons:
         - name: CV
-          url: /pdfs/Patkar_CV_3_En.pdf
+          url: /pdfs/Patkar_cv_En.pdf
         - name: CV
-          url: /pdfs/Patkar_research_CV_En.pdf
+          url: /pdfs/Patkar_cv_En_research.pdf
         - name: Email
           url: mailto:nitishspatkar@gmail.com
         - name: Google Scholar

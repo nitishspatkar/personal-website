@@ -25,7 +25,7 @@ menu:
           weight: 4  
 
 params:
-    description: "I am currently serving as a research associate at FHNW (University of Applied Sciences and Arts, Northwestern Switzerland) within the Institute for Interactive Technologies."
+    description: "I am currently serving as a research associate at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
     author: Nitish Patkar
     googleAnalyticsID: "G-JHN7YQWQWRX"
     DateFormat: "January 2006"
@@ -40,7 +40,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["research","innovation-projects","student-projects"]
+    MainSections: ["research","innovation-projects","student-projects", "random"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true

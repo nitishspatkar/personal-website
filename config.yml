@@ -2,7 +2,6 @@ baseURL: "https://nitishpatkar.com/"
 title: Dr. Nitish Patkar
 paginate: 20
 theme: PaperMod
-googleAnalytics: "G-JHN7YQWQWRX"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -28,7 +27,7 @@ menu:
 params:
     description: "I am currently serving as a research associate at FHNW (University of Applied Sciences and Arts, Northwestern Switzerland) within the Institute for Interactive Technologies."
     author: Nitish Patkar
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-JHN7YQWQWRX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false

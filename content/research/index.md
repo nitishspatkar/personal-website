@@ -44,5 +44,5 @@ I have assisted Prof. Martin Glinz in grading Requirements Engineering exams at 
 #### 2022
 
 * The IEEE International Requirements Engineering (RE) conference, 2022 (co-reviewer with Prof. Norbert Seyff) 
-* The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2020 (subreviewer with Prf. Oscar Nierstrasz)<br>
+* The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2020 (subreviewer with Prof. Oscar Nierstrasz)<br>
 

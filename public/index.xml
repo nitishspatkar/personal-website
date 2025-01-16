@@ -6,8 +6,15 @@
     <description>Recent content on Dr. Nitish Patkar</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work with Me</title>
+      <link>http://localhost:1313/consultation/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/consultation/</guid>
+      <description>Partner with me for digital transformation success</description>
+    </item>
     <item>
       <title>Innovation Projects</title>
       <link>http://localhost:1313/innovation-projects/</link>
@@ -51,7 +58,7 @@
 &lt;h4 id=&#34;2022&#34;&gt;2022&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;The IEEE International Requirements Engineering (RE) conference, 2022 (co-reviewer with Prof. Norbert Seyff)&lt;/li&gt;
-&lt;li&gt;The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2020 (subreviewer with Prf. Oscar Nierstrasz)&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;The IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER), 2020 (subreviewer with Prof. Oscar Nierstrasz)&lt;br&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
@@ -75,6 +82,47 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&amp;ldquo;&amp;ldquo;What do you think, dear developer?&amp;rdquo;&amp;ndash; A Feedback-Driven Approach for better software development&amp;rdquo; Petra Kohler and Nick Bauer &lt;a href=&#34;http://localhost:1313/pdfs/IP6_FS24_baur_Kohler.pdf&#34;&gt;Download PDF&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/random/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/random/</guid>
+      <description>&lt;h3 id=&#34;excerpts-from-books&#34;&gt;Excerpts from books&lt;/h3&gt;
+&lt;h4 id=&#34;the-inmates-are-running-the-asylum&#34;&gt;The Inmates Are Running the Asylum&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;The most expensive program is one that runs once.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;To deliver both power and pleasure to users, interaction designers think first conceptually, then in
+terms of behavior, and last in terms of interface.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Homo sapiens live in a world of probabilities &amp;hellip; and programmers live in the world of possibilities.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;the-mythical-man-month&#34;&gt;The mythical man month&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Adding manpower to a late software project makes it later.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The bearing of a child takes nine months, no matter how many women are assigned.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Build one to throw away; you will, anyhow.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Good cooking takes time. If you are made to wait, it is to serve you better, and to please you.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;object-design-roles-responsibilities-and-collaborations&#34;&gt;Object Design: Roles, Responsibilities, and Collaborations&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;We have a license to reinvent the world, because modelling the real world in our machinery (i.e., domain model) is not our goal.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Our measure of success lies in how cleverly we invent a software reality that satisfies our application’s requirements— and not in how closely it resembles the real world.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;If you have a hammer, everything looks like a nail.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Errors in product specification are the most costly because they ripple through all of the downstream activities.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;No object is ever designed in isolation.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;The sum of systems intelligence is what it knows, the actions it can perform, and the impact it has on other systems and its users.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;the-phoenix-project-a-novel-about-it-devops-and-helping-your-business-win&#34;&gt;The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win&lt;/h4&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Until code is in production, no value is actually being generated, because it’s merely WIP (Work In Progress).&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Improvements of daily work are more important than doing daily work.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;A system always has an inherent amount of disorder, and this increases over time unless work is done to maintain or reduce it.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Never let a good crisis go to waste.&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title></title>

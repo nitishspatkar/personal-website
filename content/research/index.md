@@ -16,15 +16,15 @@ Take a look at my [Google Scholar Profile](https://scholar.google.de/citations?u
 ---
 
 #### Miscellaneous
-Since June 2024, I am a member of the [special interest group](https://ireb.org/en/community/special-interest-group/sig-sustainability) on sustainability at the International Requirements Engineering Board (IREB).
+Since June 2024, I am a member of the [Special Interest Group](https://ireb.org/en/community/special-interest-group/sig-sustainability) on digital sustainability at the [International Requirements Engineering Board (IREB)](https://ireb.org/de).
 
 I have assisted Prof. Martin Glinz in grading Requirements Engineering exams at the University of Zurich. 
 
 ---
 #### 2025
 
-* Web chair and local organiser of [XP 2025](https://conf.researchr.org/home/xp-2025) conference.
-* The IEEE International Requirements Engineering [(RE) conference, 2025](https://conf.researchr.org/home/RE-2025), (CrowdRE workshop co-organizer and PC member)
+* Web chair and local organiser of [XP, 2025](https://conf.researchr.org/home/xp-2025) conference.
+* The IEEE International Requirements Engineering [(RE) conference, 2025](https://conf.researchr.org/home/RE-2025) (CrowdRE workshop co-organizer and PC member)
 * Requirements Engineering: Foundation for Software Quality [(REFSQ), 2025](https://2025.refsq.org/) (PC member)
 
 #### 2024

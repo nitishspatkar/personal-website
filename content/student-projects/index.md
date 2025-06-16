@@ -10,6 +10,11 @@ showToc: false
 disableAnchoredHeadings: false
 
 ---
+#### 2025
+
+* "Smart Meter-App: Alltagshilfe für ältere Menschen" Kumbartzki Raphael and Schwarb Francine [Download PDF](/pdfs/IP5_Kumba.pdf)
+* "HackHub: Revolutionizing Data Management and Exchange in Hackatons" Odelia Sephora Sajtschik [Download PDF](IP5_DataHub_Sajtschik.pdf)
+
 #### 2024
 
 * "From Search to Trust: towards sustainable B2B matchmaking" Marc Föry and Yves Hunziker [Download PDF](/pdfs/IP5_B2b_trust.pdf).

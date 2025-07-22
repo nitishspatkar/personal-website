@@ -1,4 +1,4 @@
---
+---
 title: "Olanga"
 date: 2025-01-13
 summary: "Olanga marketplace is an innovative solution to reduce food waste and food loss."

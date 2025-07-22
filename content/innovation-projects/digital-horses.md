@@ -1,4 +1,4 @@
---
+---
 title: "3forone"
 date: 2025-01-13
 summary: "3forone digitalizes the horse racing industry."

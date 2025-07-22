@@ -1,4 +1,4 @@
---
+---
 title: "Enablerr"
 date: 2025-01-13
 summary: "The enablerr Business System is developed by pier4all AG."

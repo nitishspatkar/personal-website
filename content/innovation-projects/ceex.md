@@ -3,7 +3,7 @@ title: "CEEX"
 date: 2025-01-13
 summary: "Clean Energy Exchange (CEEX) is an energy trading platform that enables private households, among others, to store, buy and sell their own sustainably produced energy among themselves."
 cover:
-  image: "/images/ceex-cover.jpg" # Optional: add a cover image for a nice card look
+  image: "/ceex.png" # Optional: add a cover image for a nice card look
   alt: "CEEX Platform"
   caption: "CEEX Energy Trading"
 tags: ["energy", "trading", "innovation"]

@@ -3,7 +3,7 @@ title: "Implant"
 date: 2025-01-13
 summary: "Mitterer Technologies is a pioneering company that brings implant technology and software engineering closer."
 cover:
-  image: "/implant.png" # Optional: add a cover image for a nice card look
+  image: "/implant.png"
   alt: "Implant"
   caption: "Implant"
 tags: ["innovation", "implant"]

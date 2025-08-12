@@ -12,6 +12,8 @@ disableAnchoredHeadings: false
 ---
 #### 2025
 
+* "UI Strategies for Reducing Conversational AI Energy Consumption" Jack Gläser and Simon Lüscher [Download PDF](/pdfs/IP6_Better_ways_to_manage_prompts_in_LLM_Chatbots_luescher_glaesser.pdf)
+
 * "Smart Meter-App: Alltagshilfe für ältere Menschen" Kumbartzki Raphael and Schwarb Francine [Download PDF](/pdfs/IP5_Kumba.pdf)
 * "HackHub: Revolutionizing Data Management and Exchange in Hackatons" Odelia Sephora Sajtschik [Download PDF](IP5_DataHub_Sajtschik.pdf)
 

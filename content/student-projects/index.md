@@ -12,6 +12,16 @@ disableAnchoredHeadings: false
 ---
 #### 2025
 
+* "Intuitiver Konfigurator für Schalldämmmaterialien in der Baubranche" Florian Christ and Nicola Liechti [Download PDF](/pdfs/IP5_FS25_Liechti_Christ_HBTISOL.pdf)
+
+* "AI-based assistant for personalized relocation" Stefan Simic and Damjan Stojanovic [Download PDF](/pdfs/IP6_Relocation_Stojanovic_Simic.pdf)
+
+* "KI f¨ur Requirements Engineering - Unterst¨utzung f¨ur den Requirements Engineer der Zukunft" Ramona Zürcher and Megan Hollinger [Download PDF](/pdfs/IP6-Enablerr-Hollinger-Zuercher.pdf)
+
+* "Plattform zur Analyse von Entwicklerzufriedenheit und Produktivität in agilen Teams" Xano Isenegger and Gideon Monterosa [Download PDF](/pdfs/IP5_Yappi_Isenegger_Monterosa.pdf)
+
+* "Revolutionierung bedarfsorientierter Kollaboration in der Softwareentwicklung" Carmen Koch and Tobias Wahl [Download PDF](/pdfs/IP6_Koch_Wahl_HackHub.pdf)
+
 * "UI Strategies for Reducing Conversational AI Energy Consumption" Jack Gläser and Simon Lüscher [Download PDF](/pdfs/IP6_Better_ways_to_manage_prompts_in_LLM_Chatbots_luescher_glaesser.pdf)
 
 * "Smart Meter-App: Alltagshilfe für ältere Menschen" Kumbartzki Raphael and Schwarb Francine [Download PDF](/pdfs/IP5_Kumba.pdf)

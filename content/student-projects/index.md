@@ -12,6 +12,8 @@ disableAnchoredHeadings: false
 ---
 #### 2025
 
+* "AI Selfie App 2.0: Find yourself in a story" Hava Fuga [Download PDF](/pdfs/IP6_FH25_Selfie_Fuga.pdf)
+
 * "Intuitiver Konfigurator für Schalldämmmaterialien in der Baubranche" Florian Christ and Nicola Liechti [Download PDF](/pdfs/IP5_FS25_Liechti_Christ_HBTISOL.pdf)
 
 * "AI-based assistant for personalized relocation" Stefan Simic and Damjan Stojanovic [Download PDF](/pdfs/IP6_Relocation_Stojanovic_Simic.pdf)

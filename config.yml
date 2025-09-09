@@ -71,9 +71,9 @@ params:
               url: consultation/   
 
     socialIcons:
-        - name: CV
+        - name: One Pager CV
           url: /pdfs/Patkar_cv_En.pdf
-        - name: CV
+        - name: Research CV
           url: /pdfs/Patkar_cv_En_Research.pdf
         - name: Email
           url: mailto:nitishspatkar@gmail.com

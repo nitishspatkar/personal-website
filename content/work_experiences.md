@@ -1,39 +1,3 @@
-### Miscellaneous 
-
----
-
-* I lead, survey team of the [Special Interest Group on Digital Sustainability at the International Requirements Engineering Board (IREB)](https://ireb.org/en/community/special-interest-group/sig-sustainability)
-* Local organizer of [XP 2025](https://conf.researchr.org/home/xp-2025) conference
-
----
-
-### Education
-
----
-
-**Ph.D.**
-<br>
-**University of Bern, Switzerland**
-<br>
-March 2018-March 2022
-<br>
-*Research topics*: requirements engineering, domain modelling, collaborative development
-
-**M.Sc.**
-<br>
-**University of Paderborn, Germany**
-<br>
-March 2014-February 2018
-<br>
-*Focus point*: Information and database systems
-
-**B.E.**
-<br>
-**University of Mumbai, India**
-<br>
-2009-2012
-<br>
-
 ### Professional experience
 
 ---
@@ -67,4 +31,41 @@ February 2018-February 2022
 2012-2014
 <br>
 * I was part of a team working on product lifecycle management (PLM) platforms such as Windchill, and contributed to developing a web application for the US-based client Cox Communications.
+<br>
+
+
+### Miscellaneous 
+
+---
+
+I lead, survey team of the [Special Interest Group on Digital Sustainability at the International Requirements Engineering Board (IREB)](https://ireb.org/en/community/special-interest-group/sig-sustainability)
+
+Local organizer of [XP 2025](https://conf.researchr.org/home/xp-2025) conference
+
+
+### Education
+
+---
+
+**Ph.D.**
+<br>
+**University of Bern, Switzerland**
+<br>
+March 2018-March 2022
+<br>
+*Research topics*: requirements engineering, domain modelling, collaborative development
+
+**M.Sc.**
+<br>
+**University of Paderborn, Germany**
+<br>
+March 2014-February 2018
+<br>
+*Focus point*: Information and database systems
+
+**B.E.**
+<br>
+**University of Mumbai, India**
+<br>
+2009-2012
 <br>

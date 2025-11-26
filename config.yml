@@ -28,7 +28,7 @@ menu:
           weight: 1
 
 params:
-    description: "I am currently serving as a research associate at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
+    description: "I am currently a senior researcher at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
     author: Nitish Patkar
     GoogleAnalyticsID: "G-JHN7YQWQWR"
     DateFormat: "January 2006"
@@ -54,7 +54,7 @@ params:
     profileMode:
           enabled: true
           title: Dr Nitish Patkar
-          subtitle: "Research Associate at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
+          subtitle: "Senior Researcher at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
           imageUrl: "circle.png"
           imageWidth: 160
           imageHeight: 160

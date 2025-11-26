@@ -14,6 +14,13 @@ disableAnchoredHeadings: false
 Take a look at my [Google Scholar Profile](https://scholar.google.de/citations?user=y4KM2XAAAAAJ&hl=en) for my most recent publications.<br>
 
 ---
+#### 2026
+
+* The IEEE International Requirements Engineering (RE) conference, 2026 (PC member) 
+* Requirements Engineering: Foundation for Software Quality (REFSQ) 2026 (PC member)
+* The International ICT4S conference 2026 (PC member)
+* SE-SRC 2026 (PC member)
+
 
 #### 2025
 

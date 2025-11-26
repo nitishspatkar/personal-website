@@ -1,3 +1,12 @@
+### Miscellaneous 
+
+---
+
+* I lead, survey team of the [Special Interest Group on Digital Sustainability at the International Requirements Engineering Board (IREB)](https://ireb.org/en/community/special-interest-group/sig-sustainability)
+* Local organizer of [XP 2025](https://conf.researchr.org/home/xp-2025) conference
+
+---
+
 ### Education
 
 ---
@@ -33,40 +42,29 @@ March 2014-February 2018
 <br>
 March 2022-Present
 <br>
-*   Co-Teaching Requirements Engineering course at bachelor’s level.
-*   Co-teaching for the Certificate of Advanced Studies (CAS) in Digitalisierung und Nachhaltigkeit
-*   Teaching as an Agile Coach for semester 3 and 4 students for a yearlong industry project.
-*   Teaching as an Team Coach for semester 1 and 1 students for a yearlong internal project focused on RUP.
-*   Proposing and supervising bachelor thesis and guiding students through the whole process of problem identification and proposing and validating a solution.
-*   Managing several projects with our industry partners.
-*   Preparing project proposals to acquire funding.
+*    I teach across several areas in our bachelor’s program and continuing education, including Requirements Engineering, Software Construction, and the overall construction lifecycle with a focus on testing and DevOps. In addition, I coach student teams in applying agile practices on long-term projects and supervise bachelor theses, guiding students from identifying a problem to designing, implementing, and validating a solution. Alongside teaching, I lead and manage multiple industry collaboration projects as Principal Investigator and actively contribute to project acquisition through the preparation of funding proposals.
 
 **University of Bern**, as a **Research assistant**
 <br>
 February 2018-February 2022
 <br>
-* Supervising several bachelor and master thesis and guiding students through the whole process of problem identification and proposing and validating a solution. 
-* Worked as a tutor and successfully conducted a semester long software engineering project for four consecutive years. Each year, about 50-60 students were guided into the process of identifying and specifying requirements, making prototypes, implementation and testing.  
-* Worked as an independent instructor for the Seminar in Software Engineering (BSc/MSc). This course explored the research landscape of the software engineering field, and state-of-the- art tools and techniques in it to develop the prototypical tools and techniques for various topics.
+* I have supervised multiple bachelor and master theses, guiding students from problem identification to designing, implementing, and validating their solutions. In addition, I have led a semester-long software engineering project over four consecutive years, supporting 50–60 students annually as they learned to elicit and specify requirements, create prototypes, and progress through implementation and testing. I also taught the Seminar in Software Engineering (BSc/MSc) as an independent instructor, introducing students to the software engineering research landscape and helping them explore state-of-the-art tools and techniques through the development of prototype solutions.
 
 **ActiDo GmbH, Paderborn**, as a **Web developer**
 <br>
 2017-2018
 <br>
-* Built a proof-of-concept for a web application using React.
-* Main tasks involved implementing provided designs into HTML, CSS and writing frontend logic with React. 
+* I built a proof-of-concept web application using React, translating provided designs into responsive HTML/CSS and implementing the corresponding frontend logic.
 
 **University of Paderborn**, as a **Research assistant**
 <br>
 2016-2018
 <br>
-* Worked with clients at Volksbank and university sports department to understand their requirements for a sports application. 
-* Developed a single page application using Angular and Django Rest framework as a proof of concept for the employees at Volkbank.
+* I worked closely with clients from Volksbank and the university’s sports department to understand their requirements for a sports application, and developed a proof-of-concept single-page application using Angular and the Django REST framework.
 
 **Infosys Ltd., India**, as a **Systems Engineer**
 <br>
 2012-2014
 <br>
-* Was a part of a team that worked on product lifecycle management (PLM) platforms, e.g., Windchill.
-* Worked on building a web application for a US-based client “Cox communications.”
+* I was part of a team working on product lifecycle management (PLM) platforms such as Windchill, and contributed to developing a web application for the US-based client Cox Communications.
 <br>

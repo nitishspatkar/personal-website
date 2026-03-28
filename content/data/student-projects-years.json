@@ -1,0 +1,159 @@
+{
+  "2020": [
+    {
+      "title": "Modeling requirements artifacts in an IDE",
+      "authors": "Robert Niemiec",
+      "meta": "Master's thesis, University of Bern, September 2020",
+      "pdf": "https://scg.unibe.ch/archive/masters/Niem20a.pdf",
+      "external": true
+    },
+    {
+      "title": "Moldable scenario builder",
+      "authors": "Ivan Kravchenko",
+      "meta": "Master's thesis, University of Bern, June 2020",
+      "pdf": "https://scg.unibe.ch/archive/masters/Krav20a.pdf",
+      "external": true
+    }
+  ],
+  "2022": [
+    {
+      "title": "Clean Energy Exchange (CEEX): The Future of Energy Trading",
+      "authors": "George Rowlands and Raphael Lüthy",
+      "meta": "IP5 student project, FHNW, January 2023",
+      "pdf": "/pdfs/CEEX_Final.pdf"
+    },
+    {
+      "title": "Increasing stakeholder engagement with object cards",
+      "authors": "Artthik Sellathurai",
+      "meta": "Bachelor's thesis, University of Bern, March 2022",
+      "pdf": "https://scg.unibe.ch/archive/projects/Sell22a.pdf",
+      "external": true
+    }
+  ],
+  "2023": [
+    {
+      "title": "AI chart summarizer",
+      "authors": "Florin Barbisch and Luca Mazzotta",
+      "pdf": "/pdfs/IP5_AI_Chart_Summerizer.pdf"
+    },
+    {
+      "title": "Marktplatz für „individuell“ gewachsenes Obst und Gemüse: Unterstützung des Backoffice",
+      "authors": "Yannick Hohler and Simona Mavilio",
+      "pdf": "/pdfs/Olanga_IP5_Mavilio_Hohler.pdf"
+    },
+    {
+      "title": "Digital Horse Domain",
+      "authors": "Karin Güdel and Petra Kohler",
+      "pdf": "/pdfs/EquiApp_IP5_HS23_Kohler_Guedel.pdf"
+    },
+    {
+      "title": "Sustainability Navigator für die FHNW",
+      "authors": "Kevin Würsch and Philippe Fasel",
+      "pdf": "/pdfs/IP5_SustainabilityNavigator.pdf"
+    },
+    {
+      "title": "Visualisierung und Analyse von Daten von Fitnesstrackern",
+      "authors": "Elias Bräm and Francesco Lucia",
+      "pdf": "/pdfs/IP5_Lucia_Braem_fitness_tracker.pdf"
+    },
+    {
+      "title": "Automatic Generation of User Interfaces",
+      "authors": "Ana Cosic",
+      "meta": "Bachelor's thesis, FHNW, August 2023",
+      "pdf": "/pdfs/automatic_Generation_of_User_Interface.pdf"
+    },
+    {
+      "title": "The Swiss Indian startups/SMEs matchmaking platform",
+      "authors": "George Rowlands and Raphael Lüthy",
+      "pdf": "/pdfs/Bridging_the_Gap_HS23_IIT36.pdf"
+    },
+    {
+      "title": "Are user stories really “Done”? Gaining insights into the life of a user story after it’s implemented",
+      "authors": "Festim Jetishi and Jan Säuberli",
+      "meta": "Bachelor's thesis, FHNW, August 2023"
+    },
+    {
+      "title": "Adaptive user interfaces",
+      "authors": "Adhurim Gervalla and Julian Frey",
+      "meta": "IP5 student project, FHNW, January 2023",
+      "pdf": "/pdfs/adaptive_user_interfaces.pdf"
+    }
+  ],
+  "2024": [
+    {
+      "title": "From Search to Trust: towards sustainable B2B matchmaking",
+      "authors": "Marc Föry and Yves Hunziker",
+      "pdf": "/pdfs/IP5_B2b_trust.pdf"
+    },
+    {
+      "title": "Innovative Prompt Management for LLMs",
+      "authors": "Jack Gläser and Simon Lüscher",
+      "pdf": "/pdfs/IP5_FS24_Simon_Jack.pdf"
+    },
+    {
+      "title": "Artha — The new way of water",
+      "authors": "Jan Zimmerman and Sven Ziörjen",
+      "pdf": "/pdfs/IP5_FS24_artha_zioerjen_zimmermann.pdf"
+    },
+    {
+      "title": "AI for RE — Providing AI Support for the Future Requirements Engineer",
+      "authors": "Nathanael Düblin and Nadja Kälin",
+      "pdf": "/pdfs/IP6_AI4RE.pdf"
+    },
+    {
+      "title": "“What do you think, dear developer?” — A feedback-driven approach for better software development",
+      "authors": "Petra Kohler and Nick Bauer",
+      "pdf": "/pdfs/IP6_FS24_baur_Kohler.pdf"
+    },
+    {
+      "title": "Roam Network — Community-Driven Network Transformation",
+      "authors": "Yannick Hohler and Elena Algaria",
+      "pdf": "/pdfs/IP6_roamapp.pdf"
+    },
+    {
+      "title": "“What’s that error?” — Let’s make the error messages actionable",
+      "authors": "Loren Desch and Antonio Salvia",
+      "pdf": "/pdfs/IP6_FS24_Lorin_Antonio.pdf"
+    }
+  ],
+  "2025": [
+    {
+      "title": "AI Selfie App 2.0: Find yourself in a story",
+      "authors": "Hava Fuga"
+    },
+    {
+      "title": "Intuitiver Konfigurator für Schalldämmmaterialien in der Baubranche",
+      "authors": "Florian Christ and Nicola Liechti"
+    },
+    {
+      "title": "AI-based assistant for personalized relocation",
+      "authors": "Stefan Simic and Damjan Stojanovic"
+    },
+    {
+      "title": "KI für Requirements Engineering — Unterstützung für den Requirements Engineer der Zukunft",
+      "authors": "Ramona Zürcher and Megan Hollinger"
+    },
+    {
+      "title": "Plattform zur Analyse von Entwicklerzufriedenheit und Produktivität in agilen Teams",
+      "authors": "Xano Isenegger and Gideon Monterosa"
+    },
+    {
+      "title": "Revolutionierung bedarfsorientierter Kollaboration in der Softwareentwicklung",
+      "authors": "Carmen Koch and Tobias Wahl"
+    },
+    {
+      "title": "UI Strategies for Reducing Conversational AI Energy Consumption",
+      "authors": "Jack Gläser and Simon Lüscher"
+    },
+    {
+      "title": "Smart Meter-App: Alltagshilfe für ältere Menschen",
+      "authors": "Raphael Kumbartzki and Francine Schwarb",
+      "pdf": "/pdfs/IP5_Kumba.pdf"
+    },
+    {
+      "title": "HackHub: Revolutionizing Data Management and Exchange in Hackatons",
+      "authors": "Odelia Sephora Sajtschik",
+      "pdf": "/pdfs/IP5_DataHub_Sajtschik.pdf"
+    }
+  ]
+}

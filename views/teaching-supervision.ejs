@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title, description, siteTitle, path, gaId }) %>
+</head>
+<body class="site-body">
+  <%- include('partials/header') %>
+  <main class="site-main site-main--page">
+    <article class="section section--page teaching-page">
+      <div class="section__inner">
+        <h1 class="page-title"><%= teaching.title %></h1>
+        <% if (teaching.intro) { %>
+        <p class="lede teaching-page__lede"><%= teaching.intro %></p>
+        <% } %>
+
+        <% if (teaching.stats && teaching.stats.length) { %>
+        <section class="teaching-page__stats" aria-labelledby="teaching-stats-heading">
+          <h2 id="teaching-stats-heading" class="teaching-page__stats-heading">Key figures</h2>
+          <div class="highlight-grid">
+            <% teaching.stats.forEach(function (s) { %>
+            <div class="highlight-card highlight-card--stat highlight-card--<%= s.tone || 'surface' %>">
+              <p class="highlight-card__value"><%= s.value %></p>
+              <h3 class="highlight-card__title"><%= s.label %></h3>
+              <p class="highlight-card__body"><%= s.sub %></p>
+            </div>
+            <% }); %>
+          </div>
+        </section>
+        <% } %>
+
+        <% if (teaching.teaching_blocks && teaching.teaching_blocks.length) { %>
+        <div class="teaching-page__blocks">
+          <% teaching.teaching_blocks.forEach(function (block) { %>
+          <section class="teaching-block" aria-labelledby="teach-<%= block.id %>">
+            <header class="teaching-block__head">
+              <h2 id="teach-<%= block.id %>" class="teaching-block__inst"><%= block.institution %></h2>
+              <p class="teaching-block__meta">
+                <span class="teaching-block__period"><%= block.period %></span>
+                <% if (block.role) { %>
+                <span class="teaching-block__role"><%= block.role %></span>
+                <% } %>
+              </p>
+            </header>
+            <% if (block.items && block.items.length) { %>
+            <div class="teaching-block__timeline" role="list">
+              <% block.items.forEach(function (item) { %>
+              <div class="teaching-block__timeline-item" role="listitem">
+                <p class="teaching-block__timeline-text"><%= item %></p>
+              </div>
+              <% }); %>
+            </div>
+            <% } %>
+          </section>
+          <% }); %>
+        </div>
+        <% } %>
+
+        <% if (teaching.yearOrder && teaching.yearOrder.length) { %>
+        <section class="teaching-years" aria-labelledby="student-work-heading">
+          <div class="section-heading section-heading--tight">
+            <span class="section-heading__rule" aria-hidden="true"></span>
+            <h2 id="student-work-heading" class="section-heading__label"><%= teaching.student_work_heading || 'Student projects by year' %></h2>
+          </div>
+          <% if (teaching.student_work_intro) { %>
+          <p class="teaching-years__intro lede"><%= teaching.student_work_intro %></p>
+          <% } %>
+          <div class="teaching-years__list">
+            <% teaching.yearOrder.forEach(function (year) {
+                 var entries = teaching.studentYears[year] || [];
+            %>
+            <details class="teaching-year">
+              <summary class="teaching-year__summary">
+                <span class="teaching-year__label"><%= year %></span>
+                <span class="teaching-year__count"><%= entries.length %> <%= entries.length === 1 ? 'project' : 'projects' %></span>
+              </summary>
+              <ul class="teaching-year__entries">
+                <% entries.forEach(function (e) { %>
+                <li class="teaching-entry">
+                  <span class="teaching-entry__title"><%= e.title %></span>
+                  <span class="teaching-entry__authors"><%= e.authors %></span>
+                  <% if (e.meta) { %>
+                  <span class="teaching-entry__meta"><%= e.meta %></span>
+                  <% } %>
+                  <% if (e.pdf) { %>
+                  <a class="teaching-entry__pdf" href="<%= e.pdf %>"<% if (e.external) { %> target="_blank" rel="noopener noreferrer"<% } %>>PDF</a>
+                  <% } %>
+                </li>
+                <% }); %>
+              </ul>
+            </details>
+            <% }); %>
+          </div>
+        </section>
+        <% } %>
+      </div>
+    </article>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

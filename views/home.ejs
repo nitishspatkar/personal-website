@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title: siteTitle, description: description || null, siteTitle, path, gaId }) %>
+</head>
+<body class="site-body site-body--home">
+  <%- include('partials/header') %>
+  <main class="site-main site-main--home">
+    <section class="hero hero--editorial">
+      <div class="hero__gradient"></div>
+      <div class="hero__inner layout-wide">
+        <div class="hero__intro">
+          <% if (heroNarrativeHtml) { %>
+          <div class="hero__narrative hero__narrative--prose prose">
+            <%- heroNarrativeHtml %>
+          </div>
+          <% } %>
+        </div>
+        <% if (profile.imageUrl) { %>
+        <div class="hero__photo-wrap">
+          <img class="hero__photo" src="/<%= profile.imageUrl %>" alt="" width="<%= profile.imageWidth || 200 %>" height="<%= profile.imageHeight || 200 %>">
+        </div>
+        <% } %>
+      </div>
+    </section>
+
+    <% if (cv && (cv.experience || cv.education || cv.languages)) { %>
+    <div class="home-grid layout-wide">
+      <div class="home-grid__main">
+        <% if (cv.experience && cv.experience.length) { %>
+        <section class="home-block" aria-labelledby="exp-heading">
+          <div class="section-heading">
+            <span class="section-heading__rule" aria-hidden="true"></span>
+            <h2 id="exp-heading" class="section-heading__label">Professional experience</h2>
+          </div>
+          <div class="experience-list">
+            <% cv.experience.forEach(function (job) { %>
+            <article class="exp-block">
+              <div class="exp-block__head">
+                <div class="exp-block__titles">
+                  <h3 class="exp-block__role"><%= job.role %></h3>
+                  <p class="exp-block__company"><%= job.company %><% if (job.location) { %> <span class="exp-block__loc"><%= job.location %></span><% } %></p>
+                </div>
+                <span class="exp-block__period"><%= job.period %></span>
+              </div>
+              <% if (job.summary) { %>
+              <p class="exp-block__summary"><%= job.summary %></p>
+              <% } else if (job.bullets && job.bullets.length) { %>
+              <ul class="exp-block__bullets">
+                <% job.bullets.forEach(function (b) { %>
+                <li><%= b %></li>
+                <% }); %>
+              </ul>
+              <% } %>
+            </article>
+            <% }); %>
+          </div>
+          <p class="home-more"><a class="home-more__link" href="<%= navHref('work_experiences/') %>">Full narrative &amp; older roles →</a></p>
+        </section>
+        <% } %>
+      </div>
+
+      <aside class="home-grid__aside" aria-label="Education and languages">
+        <% if (cv.education && cv.education.length) { %>
+        <section class="aside-section aside-section--first">
+          <h2 class="aside-section__title">Education</h2>
+          <% cv.education.forEach(function (ed) { %>
+          <div class="edu-block">
+            <p class="edu-block__degree"><%= ed.degree %></p>
+            <p class="edu-block__inst"><%= ed.institution %></p>
+            <p class="edu-block__meta"><%= ed.meta %></p>
+          </div>
+          <% }); %>
+        </section>
+        <% } %>
+
+        <% if (cv.languages && cv.languages.length) { %>
+        <section class="aside-section">
+          <h2 class="aside-section__title">Languages</h2>
+          <ul class="lang-list">
+            <% cv.languages.forEach(function (lang) {
+              var langLevel = Math.min(5, Math.max(0, parseInt(lang.level, 10) || 0));
+            %>
+            <li class="lang-row">
+              <span class="lang-row__name"><%= lang.name %></span>
+              <span class="lang-row__dots" aria-hidden="true">
+                <% for (var i = 1; i <= 5; i++) { %>
+                <span class="lang-dot<%= i <= langLevel ? ' lang-dot--on' : '' %>"></span>
+                <% } %>
+              </span>
+            </li>
+            <% }); %>
+          </ul>
+        </section>
+        <% } %>
+      </aside>
+    </div>
+    <% } %>
+
+    <% if (cv && cv.highlights && cv.highlights.length) { %>
+    <section class="highlights-section layout-wide">
+      <div class="section-heading">
+        <span class="section-heading__rule" aria-hidden="true"></span>
+        <h2 class="section-heading__label">Selected recognition &amp; service</h2>
+      </div>
+      <div class="highlight-grid">
+        <% cv.highlights.forEach(function (h) { %>
+        <div class="highlight-card highlight-card--<%= h.tone || 'surface' %>">
+          <h3 class="highlight-card__title"><%= h.title %></h3>
+          <p class="highlight-card__body"><%= h.body %></p>
+        </div>
+        <% }); %>
+      </div>
+    </section>
+    <% } %>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

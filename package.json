@@ -1,0 +1,23 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal site (Express + Markdown)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch --watch-path=content/data --watch-path=content/short_bio.md server.js",
+    "build": "node scripts/static-export.js",
+    "check-pdfs": "node scripts/check-pdfs.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0",
+    "marked": "^15.0.4"
+  }
+}

@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="site-footer__inner layout-wide">
+    <p class="site-footer__copy">© <%= new Date().getFullYear() %> <%= siteTitle %></p>
+    <% if (socialIcons && socialIcons.length) { %>
+    <ul class="site-footer__links">
+      <% socialIcons.forEach(function (s) { %>
+      <li><a class="site-footer__link" href="<%= s.url %>"><%= s.name %></a></li>
+      <% }); %>
+    </ul>
+    <% } %>
+  </div>
+</footer>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title, description, siteTitle, path, gaId }) %>
+</head>
+<body class="site-body">
+  <%- include('partials/header') %>
+  <main class="site-main site-main--page">
+    <article class="section section--page teaching-page">
+      <div class="section__inner">
+        <h1 class="page-title"><%= community.title %></h1>
+        <% if (community.intro) { %>
+        <p class="lede teaching-page__lede"><%= community.intro %></p>
+        <% } %>
+
+        <% if (community.sections && community.sections.length) { %>
+        <div class="teaching-page__blocks">
+          <% community.sections.forEach(function (sec) { %>
+          <section class="teaching-block community-service__section" aria-labelledby="cs-<%= sec.id %>">
+            <header class="teaching-block__head">
+              <h2 id="cs-<%= sec.id %>" class="teaching-block__inst"><%= sec.title %></h2>
+            </header>
+            <% if (sec.items && sec.items.length) { %>
+            <div class="teaching-block__timeline" role="list">
+              <% sec.items.forEach(function (row) { %>
+              <div class="teaching-block__timeline-item" role="listitem">
+                <p class="teaching-block__timeline-text">
+                  <% if (row.html) { %>
+                  <%- row.html %>
+                  <% } else { %>
+                  <%= row.text %>
+                  <% } %>
+                </p>
+              </div>
+              <% }); %>
+            </div>
+            <% } %>
+          </section>
+          <% }); %>
+        </div>
+        <% } %>
+      </div>
+    </article>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

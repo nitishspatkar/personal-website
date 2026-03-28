@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title, description, siteTitle, path, gaId }) %>
+</head>
+<body class="site-body">
+  <%- include('partials/header') %>
+  <main class="site-main site-main--page">
+    <article class="section section--page teaching-page">
+      <div class="section__inner">
+        <h1 class="page-title"><%= research.title %></h1>
+        <% if (research.intro) { %>
+        <p class="lede teaching-page__lede"><%= research.intro %></p>
+        <% } %>
+
+        <% if (research.project_blocks && research.project_blocks.length) { %>
+        <div class="teaching-page__blocks">
+          <section class="teaching-block research-projects__section" aria-labelledby="rp-institution">
+            <header class="teaching-block__head">
+              <% if (research.institution) { %>
+              <h2 id="rp-institution" class="teaching-block__inst"><%= research.institution %></h2>
+              <% } %>
+              <% if (research.role) { %>
+              <p class="teaching-block__meta">
+                <span class="teaching-block__role teaching-block__role--solo"><%= research.role %></span>
+              </p>
+              <% } %>
+            </header>
+
+            <% research.project_blocks.forEach(function (block) { %>
+            <div class="research-projects__year" aria-labelledby="rp-<%= block.id %>">
+              <h3 id="rp-<%= block.id %>" class="research-projects__year-heading"><%= block.period %></h3>
+              <% if (block.items && block.items.length) { %>
+              <div class="teaching-block__timeline" role="list">
+                <% block.items.forEach(function (item) {
+                     var row = typeof item === "string" ? { text: item } : (item || {});
+                     var line = row.text != null ? row.text : "";
+                     var slug = row.slug;
+                %>
+                <div class="teaching-block__timeline-item" role="listitem">
+                  <p class="teaching-block__timeline-text">
+                    <% if (slug) { %>
+                    <a href="/innovation-projects/<%= slug %>/"><%= line %></a>
+                    <% } else { %>
+                    <%= line %>
+                    <% } %>
+                  </p>
+                </div>
+                <% }); %>
+              </div>
+              <% } %>
+            </div>
+            <% }); %>
+          </section>
+        </div>
+        <% } %>
+      </div>
+    </article>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

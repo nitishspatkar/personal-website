@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title, description, siteTitle, path, gaId }) %>
+</head>
+<body class="site-body">
+  <%- include('partials/header') %>
+  <main class="site-main site-main--page">
+    <article class="section section--page">
+      <div class="section__inner prose">
+        <% if (path !== '/') { %>
+        <h1 class="page-title"><%= title %></h1>
+        <% } %>
+        <%- html %>
+      </div>
+    </article>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

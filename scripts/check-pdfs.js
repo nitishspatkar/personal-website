@@ -1,6 +1,6 @@
 /**
- * Ensures every /pdfs/*.pdf referenced in content/data/student-projects-years.json
- * and config.yml exists under public/pdfs/. Exit 1 if any are missing.
+ * Ensures every /pdfs/… path referenced in content/data/student-projects-years.json
+ * and config.yml exists under public/pdfs/ (any subfolder). Exit 1 if any are missing.
  */
 const fs = require("fs");
 const path = require("path");
@@ -8,14 +8,25 @@ const path = require("path");
 const ROOT = path.join(__dirname, "..");
 const PDF_DIR = path.join(ROOT, "public", "pdfs");
 
-function pdfNamesOnDisk() {
+function pdfRelPathsOnDisk() {
   if (!fs.existsSync(PDF_DIR)) {
     console.error("Missing directory:", PDF_DIR);
     process.exit(1);
   }
-  return new Set(
-    fs.readdirSync(PDF_DIR).filter((f) => f.endsWith(".pdf"))
-  );
+  const set = new Set();
+  function walk(dir, relBase) {
+    for (const name of fs.readdirSync(dir, { withFileTypes: true })) {
+      const full = path.join(dir, name.name);
+      const rel = relBase ? `${relBase}/${name.name}` : name.name;
+      if (name.isDirectory()) {
+        walk(full, rel);
+      } else if (name.name.endsWith(".pdf")) {
+        set.add(rel.replace(/\\/g, "/"));
+      }
+    }
+  }
+  walk(PDF_DIR, "");
+  return set;
 }
 
 function refsFromStudentProjects() {
@@ -47,12 +58,12 @@ function refsFromConfig() {
   return refs;
 }
 
-const onDisk = pdfNamesOnDisk();
+const onDisk = pdfRelPathsOnDisk();
 const needed = [...new Set([...refsFromStudentProjects(), ...refsFromConfig()])];
 const missing = needed.filter((f) => !onDisk.has(f));
 
 if (missing.length) {
-  console.error("PDF referenced but not found in public/pdfs/:");
+  console.error("PDF referenced but not found under public/pdfs/:");
   for (const f of missing.sort()) console.error(" ", f);
   process.exit(1);
 }

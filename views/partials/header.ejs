@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="site-header__inner layout-wide">
+    <% if (typeof isHome !== 'undefined' && isHome) { %>
+    <h1 class="site-header__brand"><a class="site-logo" href="/"><%= siteTitle %></a></h1>
+    <% } else { %>
+    <a class="site-logo" href="/"><%= siteTitle %></a>
+    <% } %>
+    <nav class="site-nav" aria-label="Main">
+      <% navItems.forEach(function (item) {
+        var href = navHref(item.url);
+        var active = (path === href) || (href.length > 1 && path.indexOf(href) === 0);
+      %>
+        <a class="site-nav__link<%= active ? ' is-active' : '' %>" href="<%= href %>"><%= item.name %></a>
+      <% }); %>
+    </nav>
+    <% if (typeof cvPdfUrl !== 'undefined' && cvPdfUrl) { %>
+    <a class="btn-cv" href="<%= cvPdfUrl %>">Download CV</a>
+    <% } %>
+  </div>
+</header>

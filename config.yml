@@ -1,146 +1,41 @@
-baseURL: "https://nitishpatkar.com/" 
-title: Dr. Nitish Patkar
-paginate: 20
-theme: PaperMod
-
-enableInlineShortcodes: true
-enableRobotsTXT: true
-
-taxonomies:
-    tag: tags
+# Site settings for the Express app (views + server.js). Not Hugo.
+baseURL: "https://nitishpatkar.com/"
+title: Nitish Patkar
 
 menu:
-    main:
-        - name: Research Activities
-          url: research/
-          weight: 2   
-        - name: Innovation Projects
-          url: innovation-projects/
-          weight: 3
-        - name: Student Projects
-          url: student-projects/
-          weight: 4
-        - name: Random
-          url: random/
-          weight: 5
-        - name: Work with me
-          url: consultation/
-          weight: 1
+  main:
+    - name: Community Service
+      url: research/
+      weight: 1
+    - name: Research Projects
+      url: innovation-projects/
+      weight: 2
+    - name: Teaching and supervision
+      url: student-projects/
+      weight: 3
 
 params:
-    description: "I am currently a senior researcher at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
-    author: Nitish Patkar
-    GoogleAnalyticsID: "G-JHN7YQWQWR"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["research","innovation-projects","student-projects", "random"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Dr Nitish Patkar
-          subtitle: "Senior Researcher at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
-          imageUrl: "circle.png"
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: Research Activities
-              url: research/
-            - name: Innovation Projects
-              url: innovation-projects/
-            - name: Student Projects
-              url: student-projects/
-            - name: Random
-              url: random/
-            - name: Work with me
-              url: consultation/   
+  cvPdfUrl: /pdfs/Patkar_cv_En.pdf
+  GoogleAnalyticsID: "G-JHN7YQWQWR"
+  # Optional: set alone to override default meta description (otherwise profileMode.subtitle is used).
+  # description: "…"
+  # Default <meta description> when a page has none (also used unless params.description is set).
+  profileMode:
+    subtitle: "Senior Researcher at the University of Applied Sciences and Arts, Northwestern Switzerland (FHNW)"
+    imageUrl: "circle.png"
+    imageWidth: 160
+    imageHeight: 160
 
-    socialIcons:
-        - name: One Pager CV
-          url: /pdfs/Patkar_cv_En.pdf
-        - name: Research CV
-          url: /pdfs/Patkar_cv_En_Research.pdf
-        - name: Email
-          url: mailto:nitishspatkar@gmail.com
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=y4KM2XAAAAAJ&hl=en
-        - name: GitHub
-          url: https://github.com/nitishspatkar
-        - name: LinkedIn
-          url: https://www.linkedin.com/in/nitishpatkar/ 
-
-    assets:
-        disableScrollBarStyle: true
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Nitish Patkar"
-      icon: favicon.ico
-      iconHeight: 18
-
-markup:
-  blackFriday:
-    angledQuotes: false
-    extensions: null
-    extensionsMask: null
-    footnoteAnchorPrefix: ""
-    footnoteReturnLinkContents: ""
-    fractions: true
-    hrefTargetBlank: false
-    latexDashes: true
-    nofollowLinks: false
-    noreferrerLinks: false
-    plainIDAnchors: true
-    skipHTML: false
-    smartDashes: true
-    smartypants: true
-    smartypantsQuotesNBSP: false
-    taskLists: true
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true
-    parser:
-      attribute: true
-      autoHeadingID: true
-      autoHeadingIDType: github
-    renderer:
-      hardWraps: false
-      unsafe: true
-      xHTML: false
-  highlight:
-    codeFences: true
-    guessSyntax: true
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: autumn
-    tabWidth: 4
-  tableOfContents:
-    endLevel: 2
-    ordered: false
-    startLevel: 2
+  socialIcons:
+    - name: One Pager CV
+      url: /pdfs/Patkar_cv_En.pdf
+    - name: Research CV
+      url: /pdfs/Patkar_cv_En_research.pdf
+    - name: Email
+      url: mailto:nitishspatkar@gmail.com
+    - name: Google Scholar
+      url: https://scholar.google.com/citations?user=y4KM2XAAAAAJ&hl=en
+    - name: GitHub
+      url: https://github.com/nitishspatkar
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/nitishpatkar/

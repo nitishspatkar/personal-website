@@ -1,0 +1,39 @@
+# Applied research projects (aligned with CV). Year headings correct 2025 / 2024 / 2022–2023.
+title: Research and Innovation Projects
+description: Applied research at FHNW — Innosuisse and internal IP collaborations.
+intro: >-
+  Innovation projects with industry partners as Principal Investigator or collaborator.
+
+
+project_blocks:
+  - id: "2025"
+    period: "2025"
+    items:
+      - "AI-Assistant for faster Software Project Planning in SMBs: Approaching a human-centric feedback workflow (129.398 INNO-ICT | Principal Investigator | ~15'000 CHF)"
+      - "Multi-model forecasting engine for PV production and load in active distribution grids (121.582 IP-EE | Principal Investigator | ~43'000 CHF)"
+      - text: "Efficient Design of Medical Implants: feasibility of a Scalable Generic Platform for Electrical Simulation (76033.1 INNO-ENG | Collaborator)"
+        slug: implant
+      - "Digital tools to increase medication adherence among older adults (75194.1 INNO-ICT | Collaborator)"
+      - "Sustainabl2EMobility: Combining private car sharing and public transportation (127.705 INNO-SBM | Collaborator)"
+      - text: "Züri teilt (Innovation Booster Future Urban Society 1295 | Collaborator)"
+        slug: zuriteilt
+      - "Digitale Produktempfehlung ohne Expertenwissen (10.01438.04.2 | Collaborator)"
+
+  - id: "2024"
+    period: "2024"
+    items:
+      - "Watersense — a Cloud Based Data Analysis Platform (71089.1 INNO-EE | Collaborator)"
+      - "Utilization of Web3 technology for optimization of Telecommunication services (68580.1 INNO-ICT | Collaborator)"
+      - text: "EquiTech: KI-gesteuerte Innovationen in der Pferdebranche (70028.1 INNO-ICT | Collaborator)"
+        slug: digital-horses
+      - text: "Enablerr — das ERP der nächsten Generation (44824.1 IP-ICT | Collaborator)"
+        slug: enablerr
+      - "Innovative Plattform zur Bündelung von Bestellungen und Förderung des lokalen Bio-Marktes durch intuitives Pooling (74294.1 INNO-ICT | Collaborator)"
+      - "HackHub: Revolutionizing Data Exchange in Hackathons (71532.1 INNO-ICT | Collaborator)"
+
+  - id: fhnw-2022-23
+    period: "2022 – 2023"
+    items:
+      - text: "Clean Energy EXchange (CEEX) — Development of AI based Trading Advisor to operate Virtual Topology and Dynamic Grid Prices (49976.1 IP-EE | Collaborator)"
+        slug: ceex
+      - "Marktplatz für individuell gewachsenes Obst und Gemüse (10.01495.03.1 | Collaborator)"

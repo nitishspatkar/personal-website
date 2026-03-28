@@ -1,0 +1,60 @@
+# Structured CV for the homepage — keep summaries tight; full detail lives in the PDF / work_experiences page.
+
+languages:
+  - name: German
+    level: 4
+  - name: English
+    level: 5
+  - name: Hindi
+    level: 5
+  - name: Marathi
+    level: 5
+
+education:
+  - institution: University of Bern
+    degree: Ph.D. Computer Science
+    meta: March 2022 · Switzerland
+  - institution: University of Paderborn
+    degree: M.Sc. in Computer Science
+    meta: March 2018 · Germany
+  - institution: University of Mumbai
+    degree: B.E. in Computer Science
+    meta: May 2011 · India
+
+experience:
+  - company: University of Applied Sciences and Arts Northwestern Switzerland (FHNW)
+    role: Senior Researcher
+    location: Brugg, CH
+    period: Mar 2022 – Present
+    summary: Applied research with SMEs and startups, PI on industry collaborations, teaching and thesis supervision in RE and software construction, and agile coaching at scale.
+  - company: University of Bern
+    role: Research Assistant
+    location: Bern, CH
+    period: Feb 2018 – Feb 2022
+    summary: Mentored large student cohorts on end-to-end software projects; taught seminars bridging SE research and practice.
+  - company: ActiDo GmbH
+    role: Web Developer
+    location: Paderborn, DE
+    period: Jan 2017 – Jan 2018
+    summary: React front-ends from detailed UI/UX specifications.
+  - company: University of Paderborn
+    role: Research Assistant
+    location: Paderborn, DE
+    period: Jan 2016 – Jan 2018
+    summary: Requirements work and SPA prototype with Angular and Django REST for industry clients.
+  - company: Infosys Ltd.
+    role: Systems Engineer
+    location: Pune, IN
+    period: Jan 2012 – Jan 2014
+    summary: PLM platforms (Windchill) and enterprise web delivery for telecom.
+
+highlights:
+  - title: Collaboration
+    body: Associate Member of the International Requirements Engineering Board (IREB); leads the survey team of the Special Interest Group on Digital Sustainability.
+    tone: primary
+  - title: Awards
+    body: Best Reviewer Award — REFSQ 2024 & 2025. Reviewer and program committee member at IEEE RE, REFSQ, XP, TOSEM, EMSE, IST, ICT4S, and SE-SRC (2022–2026).
+    tone: secondary
+  - title: Organization
+    body: Local organizer of XP'25 (26th International Conference on Agile Software Development). Co-organizer of the 9th and 10th International Workshop on Crowd-Based Requirements Engineering (2025–2026).
+    tone: surface

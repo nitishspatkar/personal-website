@@ -1,0 +1,29 @@
+title: Community Service
+description: Program committees, journal reviewing, and related academic service.
+
+intro: ""
+
+sections:
+  - id: program-committees
+    title: Program committees
+    items:
+      - "IEEE International Requirements Engineering (RE) conference: PC member (2024–2026); co-reviewer (2022–2023)."
+      - "Requirements Engineering: Foundation for Software Quality (REFSQ) conference: PC member (2024–2026; Best Reviewer Award 2025); co-reviewer (2023)."
+      - "International ICT4S Conference: PC member (2024, 2026)."
+      - "Software Engineering Conference (SE-SRC): PC member (2026)."
+
+  - id: journal-reviewing
+    title: Journal reviewing
+    items:
+      - "Science of Computer Programming: reviewer (2023–2024)."
+      - "Empirical Software Engineering (EMSE): reviewer (2023)."
+      - "Information and Software Technology (IST): reviewer (2023)."
+
+  - id: other-service
+    title: Other service
+    items:
+      - "IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER): co-reviewer (2020)."
+      - md: "International Conference on Agile Software Development (XP): local and web chair, [XP'25](https://conf.researchr.org/home/xp-2025) (2025)."
+      - "International Workshop on Crowd-Based Requirements Engineering: co-organizer (2025, 2026)."
+      - md: "International Requirements Engineering Board (IREB): member of the [Special Interest Group on Digital Sustainability](https://ireb.org/de/community/special-interest-group/sig-sustainability) (from 2024)."
+      - "University of Zurich: Requirements Engineering exams (2023, 2024)."

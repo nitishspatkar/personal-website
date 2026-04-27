@@ -15,7 +15,7 @@ menu:
       weight: 3
 
 params:
-  cvPdfUrl: /pdfs/cv/Patkar_CV.pdf
+  cvPdfUrl: /pdfs/cv/Patkar_CV_April2026.pdf
   GoogleAnalyticsID: "G-JHN7YQWQWR"
   # Optional: set alone to override default meta description (otherwise profileMode.subtitle is used).
   # description: "…"
@@ -28,7 +28,7 @@ params:
 
   socialIcons:
     - name: One Pager CV
-      url: /pdfs/cv/Patkar_CV.pdf
+      url: /pdfs/cv/Patkar_CV_April2026.pdf
     - name: Research CV
       url: /pdfs/cv/Patkar_Research_CV.pdf
     - name: Email

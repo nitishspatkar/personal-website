@@ -40,7 +40,7 @@ const defaultMetaDescription =
   site.params?.description || profile.subtitle || undefined;
 const socialIcons = site.params?.socialIcons || [];
 const gaId = site.params?.GoogleAnalyticsID;
-const cvPdfUrl = site.params?.cvPdfUrl || "/pdfs/cv/Patkar_CV.pdf";
+const cvPdfUrl = site.params?.cvPdfUrl || "/pdfs/cv/Patkar_CV_April2026.pdf";
 
 function loadCv() {
   try {

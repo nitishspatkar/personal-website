@@ -21,6 +21,8 @@ function collectUrls() {
     "/",
     "/research/",
     "/student-projects/",
+    "/supervision/",
+    "/misc/",
     "/work_experiences/",
     "/short_bio/",
     "/innovation-projects/",

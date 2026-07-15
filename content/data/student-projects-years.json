@@ -20,7 +20,13 @@
       "title": "Clean Energy Exchange (CEEX): The Future of Energy Trading",
       "authors": "George Rowlands and Raphael Lüthy",
       "meta": "IP5 student project, FHNW, January 2023",
-      "pdf": "/pdfs/2022/CEEX_Final.pdf"
+      "pdf": "/pdfs/2022/HS22_IP5_Rowlands_Luethy_CEEX.pdf"
+    },
+    {
+      "title": "Adaptive user interfaces",
+      "authors": "Adhurim Gervalla and Julian Frey",
+      "meta": "IP5 student project, FHNW, January 2023",
+      "pdf": "/pdfs/2022/HS22_IP5_Gervalla_Frey_Adaptive-User-Interfaces.pdf"
     },
     {
       "title": "Increasing stakeholder engagement with object cards",
@@ -34,126 +40,177 @@
     {
       "title": "AI chart summarizer",
       "authors": "Florin Barbisch and Luca Mazzotta",
-      "pdf": "/pdfs/2023/IP5_AI_Chart_Summerizer.pdf"
+      "pdf": "/pdfs/2023/HS23_IP5_Barbisch_Mazzotta_AI-Chart-Summarizer.pdf"
     },
     {
       "title": "Marktplatz für „individuell“ gewachsenes Obst und Gemüse: Unterstützung des Backoffice",
       "authors": "Yannick Hohler and Simona Mavilio",
-      "pdf": "/pdfs/2023/Olanga_IP5_Mavilio_Hohler.pdf"
+      "pdf": "/pdfs/2023/HS23_IP5_Hohler_Mavilio_Obst-Gemuese-Marktplatz.pdf"
     },
     {
       "title": "Digital Horse Domain",
       "authors": "Karin Güdel and Petra Kohler",
-      "pdf": "/pdfs/2023/EquiApp_IP5_HS23_Kohler_Guedel.pdf"
+      "pdf": "/pdfs/2023/HS23_IP5_Guedel_Kohler_Digital-Horse-Domain.pdf"
     },
     {
       "title": "Sustainability Navigator für die FHNW",
       "authors": "Kevin Würsch and Philippe Fasel",
-      "pdf": "/pdfs/2023/IP5_SustainabilityNavigator.pdf"
+      "pdf": "/pdfs/2023/HS23_IP5_Wuersch_Fasel_Sustainability-Navigator.pdf"
     },
     {
       "title": "Visualisierung und Analyse von Daten von Fitnesstrackern",
       "authors": "Elias Bräm and Francesco Lucia",
-      "pdf": "/pdfs/2023/IP5_Lucia_Braem_fitness_tracker.pdf"
+      "pdf": "/pdfs/2023/HS23_IP5_Braem_Lucia_Fitness-Tracker.pdf"
     },
     {
       "title": "Automatic Generation of User Interfaces",
       "authors": "Ana Cosic",
       "meta": "Bachelor's thesis, FHNW, August 2023",
-      "pdf": "/pdfs/2023/automatic_Generation_of_User_Interface.pdf"
+      "pdf": "/pdfs/2023/FS23_IP6_Cosic_Automatic-UI-Generation.pdf"
     },
     {
       "title": "The Swiss Indian startups/SMEs matchmaking platform",
       "authors": "George Rowlands and Raphael Lüthy",
-      "pdf": "/pdfs/2023/Bridging_the_Gap_HS23_IIT36.pdf"
+      "pdf": "/pdfs/2023/HS23_IP6_Rowlands_Luethy_Swiss-Indian-Matchmaking.pdf"
     },
     {
       "title": "Are user stories really “Done”? Gaining insights into the life of a user story after it’s implemented",
       "authors": "Festim Jetishi and Jan Säuberli",
       "meta": "Bachelor's thesis, FHNW, August 2023"
-    },
-    {
-      "title": "Adaptive user interfaces",
-      "authors": "Adhurim Gervalla and Julian Frey",
-      "meta": "IP5 student project, FHNW, January 2023",
-      "pdf": "/pdfs/2023/adaptive_user_interfaces.pdf"
     }
   ],
   "2024": [
     {
       "title": "From Search to Trust: towards sustainable B2B matchmaking",
       "authors": "Marc Föry and Yves Hunziker",
-      "pdf": "/pdfs/2024/IP5_B2b_trust.pdf"
+      "pdf": "/pdfs/2024/FS24_IP5_Foery_Hunziker_B2B-Trust.pdf"
     },
     {
       "title": "Innovative Prompt Management for LLMs",
       "authors": "Jack Gläser and Simon Lüscher",
-      "pdf": "/pdfs/2024/IP5_FS24_Simon_Jack.pdf"
+      "pdf": "/pdfs/2024/FS24_IP5_Glaeser_Luescher_Prompt-Management.pdf"
     },
     {
       "title": "Artha — The new way of water",
       "authors": "Jan Zimmerman and Sven Ziörjen",
-      "pdf": "/pdfs/2024/IP5_FS24_artha_zioerjen_zimmermann.pdf"
+      "pdf": "/pdfs/2024/FS24_IP5_Zimmermann_Zioerjen_Artha.pdf"
     },
     {
       "title": "AI for RE — Providing AI Support for the Future Requirements Engineer",
       "authors": "Nathanael Düblin and Nadja Kälin",
-      "pdf": "/pdfs/2024/IP6_AI4RE.pdf"
+      "pdf": "/pdfs/2024/FS24_IP6_Dueblin_Kaelin_AI-for-RE.pdf"
+    },
+    {
+      "title": "Analyse und Visualisierung von aufgezeichneten Trainingsdaten",
+      "authors": "Elias Bräm and Francesco Lucia",
+      "pdf": "/pdfs/2024/FS24_IP6_Braem_Lucia_Training-Data.pdf"
     },
     {
       "title": "“What do you think, dear developer?” — A feedback-driven approach for better software development",
       "authors": "Petra Kohler and Nick Bauer",
-      "pdf": "/pdfs/2024/IP6_FS24_baur_Kohler.pdf"
+      "pdf": "/pdfs/2024/FS24_IP6_Bauer_Kohler_Developer-Feedback.pdf"
+    },
+    {
+      "title": "Clean Energy Exchange (CEEX)",
+      "authors": "Andrea Mangione and Dario Voser",
+      "pdf": "/pdfs/2024/FS24_IP6_Mangione_Voser_CEEX.pdf"
     },
     {
       "title": "Roam Network — Community-Driven Network Transformation",
       "authors": "Yannick Hohler and Elena Algaria",
-      "pdf": "/pdfs/2024/IP6_roamapp.pdf"
+      "pdf": "/pdfs/2024/FS24_IP6_Algaria_Hohler_Roam-Network.pdf"
     },
     {
       "title": "“What’s that error?” — Let’s make the error messages actionable",
       "authors": "Loren Desch and Antonio Salvia",
-      "pdf": "/pdfs/2024/IP6_FS24_Lorin_Antonio.pdf"
-    }
-  ],
-  "2025": [
-    {
-      "title": "AI Selfie App 2.0: Find yourself in a story",
-      "authors": "Hava Fuga"
+      "pdf": "/pdfs/2024/FS24_IP6_Desch_Salvia_Whats-That-Error.pdf"
     },
     {
-      "title": "Intuitiver Konfigurator für Schalldämmmaterialien in der Baubranche",
-      "authors": "Florian Christ and Nicola Liechti"
-    },
-    {
-      "title": "AI-based assistant for personalized relocation",
-      "authors": "Stefan Simic and Damjan Stojanovic"
-    },
-    {
-      "title": "KI für Requirements Engineering — Unterstützung für den Requirements Engineer der Zukunft",
-      "authors": "Ramona Zürcher and Megan Hollinger"
-    },
-    {
-      "title": "Plattform zur Analyse von Entwicklerzufriedenheit und Produktivität in agilen Teams",
-      "authors": "Xano Isenegger and Gideon Monterosa"
-    },
-    {
-      "title": "Revolutionierung bedarfsorientierter Kollaboration in der Softwareentwicklung",
-      "authors": "Carmen Koch and Tobias Wahl"
-    },
-    {
-      "title": "UI Strategies for Reducing Conversational AI Energy Consumption",
-      "authors": "Jack Gläser and Simon Lüscher"
-    },
-    {
-      "title": "Smart Meter-App: Alltagshilfe für ältere Menschen",
-      "authors": "Raphael Kumbartzki and Francine Schwarb",
-      "pdf": "/pdfs/2025/IP5_Kumba.pdf"
+      "title": "Artha — The new way of water",
+      "authors": "Stefan Simic and Damjan Stojanovic",
+      "pdf": "/pdfs/2024/HS24_IP5_Simic_Stojanovic_Artha.pdf"
     },
     {
       "title": "HackHub: Revolutionizing Data Management and Exchange in Hackatons",
       "authors": "Odelia Sephora Sajtschik",
-      "pdf": "/pdfs/2025/IP5_DataHub_Sajtschik.pdf"
+      "pdf": "/pdfs/2024/HS24_IP5_Sajtschik_HackHub.pdf"
+    }
+  ],
+  "2025": [
+    {
+      "title": "KI für Requirements Engineering — Unterstützung für den Requirements Engineer der Zukunft",
+      "authors": "Megan Hollinger and Ramona Zürcher",
+      "pdf": "/pdfs/2025/FS25_IP6_Hollinger_Zuercher_KI-Requirements-Engineering.pdf"
+    },
+    {
+      "title": "Smart Meter-App: Alltagshilfe für ältere Menschen",
+      "authors": "Raphael Kumbartzki and Francine Schwarb",
+      "pdf": "/pdfs/2025/FS25_IP5_Kumbartzki_Schwarb_Smart-Meter-App.pdf"
+    },
+    {
+      "title": "Intuitiver Konfigurator für Schalldämmmaterialien in der Baubranche",
+      "authors": "Florian Christ and Nicola Liechti",
+      "pdf": "/pdfs/2025/FS25_IP5_Christ_Liechti_Schalldaemm-Konfigurator.pdf"
+    },
+    {
+      "title": "HackHub: Revolutionierung des Datenmanagements und -austauschs bei Hackathons",
+      "authors": "Carmen Koch and Tobias Wahl",
+      "pdf": "/pdfs/2025/FS25_IP6_Koch_Wahl_HackHub.pdf"
+    },
+    {
+      "title": "Plattform zur Analyse von Entwicklerzufriedenheit und Produktivität in agilen Teams",
+      "authors": "Xeno Isenegger and Gideon Monterosa",
+      "pdf": "/pdfs/2025/FS25_IP5_Isenegger_Monterosa_Yappi.pdf"
+    },
+    {
+      "title": "Better ways to manage prompts in LLM Chatbots",
+      "authors": "Jack Gläser and Simon Lüscher",
+      "pdf": "/pdfs/2025/FS25_IP6_Glaeser_Luescher_Prompt-Management.pdf"
+    },
+    {
+      "title": "AI-based assistant for personalized relocation",
+      "authors": "Stefan Simic and Damjan Stojanovic",
+      "pdf": "/pdfs/2025/FS25_IP6_Simic_Stojanovic_Relocation.pdf"
+    },
+    {
+      "title": "AI Selfie App 2.0: Find yourself in a story",
+      "authors": "Hava Fuga",
+      "pdf": "/pdfs/2025/FS25_IP6_Fuga_AI-Selfie-App.pdf"
+    },
+    {
+      "title": "Automated Creation, Validation, and Evolution of Personas",
+      "authors": "Miro De Nardo and Andrin Sibold",
+      "pdf": "/pdfs/2025/HS25_IP5_DeNardo_Sibold_Personas.pdf"
+    },
+    {
+      "title": "Interactive Simulation of Grid Flexibility Using Configurable Energy Devices",
+      "authors": "Eric Brukner and Merlin van der Kolk",
+      "pdf": "/pdfs/2025/HS25_IP5_Brukner_vanderKolk_Grid-Flexibility.pdf"
+    },
+    {
+      "title": "Smart Companion: Adaptive Support and Smart Energy Feedback for Elderly People",
+      "authors": "Raphael Kumbartzki and Francine Schwarb",
+      "pdf": "/pdfs/2025/HS25_IP6_Kumbartzki_Schwarb_Smart-Companion.pdf"
+    },
+    {
+      "title": "Interactive Dashboard for Longitudinal Analysis of Digital Sustainability Survey Data",
+      "authors": "Orkun Atasoy and Timon Gisler",
+      "pdf": "/pdfs/2025/HS25_IP5_Atasoy_Gisler_Sustainability-Dashboard.pdf"
+    },
+    {
+      "title": "Advancing Yappi: Intelligent Integration of Developer Well-Being and Productivity Data",
+      "authors": "Xeno Isenegger and Gideon Monterosa",
+      "pdf": "/pdfs/2025/HS25_IP6_Isenegger_Monterosa_Advancing-Yappi.pdf"
+    },
+    {
+      "title": "Intuitiver Konfigurator für Schalldämmmaterialien in der Baubranche 2.0",
+      "authors": "Nicola Liechti",
+      "pdf": "/pdfs/2025/HS25_IP6_Liechti_Schalldaemm-Konfigurator-2.0.pdf"
+    },
+    {
+      "title": "Automation and personalization of the relocation process",
+      "authors": "Selina Lanz and Michelle Rickenmann",
+      "pdf": "/pdfs/2025/HS25_IP5_Lanz_Rickenmann_Relocation-Automation.pdf"
     }
   ]
 }

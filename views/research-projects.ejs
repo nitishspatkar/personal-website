@@ -13,46 +13,47 @@
         <p class="lede teaching-page__lede"><%= research.intro %></p>
         <% } %>
 
-        <% if (research.project_blocks && research.project_blocks.length) { %>
-        <div class="teaching-page__blocks">
-          <section class="teaching-block research-projects__section" aria-labelledby="rp-institution">
-            <header class="teaching-block__head">
-              <% if (research.institution) { %>
-              <h2 id="rp-institution" class="teaching-block__inst"><%= research.institution %></h2>
+        <% if (research.pi_projects && research.pi_projects.length) { %>
+        <section class="teaching-block research-projects__section" aria-labelledby="pi-heading">
+          <header class="teaching-block__head">
+            <h2 id="pi-heading" class="teaching-block__inst">As Principal Investigator</h2>
+          </header>
+          <ul class="service-list">
+            <% research.pi_projects.forEach(function (p) { %>
+            <li class="service-list__item">
+              <% if (p.period) { %>
+              <span class="service-list__period"><%= p.period %></span>
               <% } %>
-              <% if (research.role) { %>
-              <p class="teaching-block__meta">
-                <span class="teaching-block__role teaching-block__role--solo"><%= research.role %></span>
-              </p>
+              <span class="service-list__title"><%= p.title %></span>
+              <% if (p.meta) { %>
+              <span class="service-list__meta"><%= p.meta %></span>
               <% } %>
-            </header>
-
-            <% research.project_blocks.forEach(function (block) { %>
-            <div class="research-projects__year" aria-labelledby="rp-<%= block.id %>">
-              <h3 id="rp-<%= block.id %>" class="research-projects__year-heading"><%= block.period %></h3>
-              <% if (block.items && block.items.length) { %>
-              <div class="teaching-block__timeline" role="list">
-                <% block.items.forEach(function (item) {
-                     var row = typeof item === "string" ? { text: item } : (item || {});
-                     var line = row.text != null ? row.text : "";
-                     var slug = row.slug;
-                %>
-                <div class="teaching-block__timeline-item" role="listitem">
-                  <p class="teaching-block__timeline-text">
-                    <% if (slug) { %>
-                    <a href="/innovation-projects/<%= slug %>/"><%= line %></a>
-                    <% } else { %>
-                    <%= line %>
-                    <% } %>
-                  </p>
-                </div>
-                <% }); %>
-              </div>
-              <% } %>
-            </div>
+            </li>
             <% }); %>
-          </section>
-        </div>
+          </ul>
+        </section>
+        <% } %>
+
+        <% if (research.collaborator_summary) {
+             var cs = research.collaborator_summary;
+        %>
+        <section class="teaching-block research-projects__section" aria-labelledby="collab-heading">
+          <header class="teaching-block__head">
+            <h2 id="collab-heading" class="teaching-block__inst">As collaborator</h2>
+          </header>
+          <% if (cs.intro) { %>
+          <p class="lede teaching-page__lede"><%= cs.intro %></p>
+          <% } else if (cs.count) { %>
+          <p class="lede teaching-page__lede">Collaborator on <%= cs.count %> further innovation projects spanning these domains:</p>
+          <% } %>
+          <% if (cs.domains && cs.domains.length) { %>
+          <ul class="service-list service-list--compact">
+            <% cs.domains.forEach(function (d) { %>
+            <li class="service-list__item"><%= d %></li>
+            <% }); %>
+          </ul>
+          <% } %>
+        </section>
         <% } %>
       </div>
     </article>

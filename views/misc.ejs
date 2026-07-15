@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head', { title, description, siteTitle, path, gaId }) %>
+</head>
+<body class="site-body">
+  <%- include('partials/header') %>
+  <main class="site-main site-main--page">
+    <article class="section section--page teaching-page">
+      <div class="section__inner">
+        <h1 class="page-title"><%= misc.title %></h1>
+        <% if (misc.intro) { %>
+        <p class="lede teaching-page__lede"><%= misc.intro %></p>
+        <% } %>
+
+        <% if (misc.highlights && misc.highlights.length) { %>
+        <section class="highlights-section" aria-label="Recognition and service">
+          <div class="highlight-grid">
+            <% misc.highlights.forEach(function (h) { %>
+            <div class="highlight-card highlight-card--<%= h.tone || 'surface' %>">
+              <h2 class="highlight-card__title"><%= h.title %></h2>
+              <p class="highlight-card__body"><%= h.body %></p>
+            </div>
+            <% }); %>
+          </div>
+        </section>
+        <% } %>
+      </div>
+    </article>
+  </main>
+  <%- include('partials/footer') %>
+</body>
+</html>

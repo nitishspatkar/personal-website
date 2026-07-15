@@ -21,19 +21,17 @@
               <h2 id="cs-<%= sec.id %>" class="teaching-block__inst"><%= sec.title %></h2>
             </header>
             <% if (sec.items && sec.items.length) { %>
-            <div class="teaching-block__timeline" role="list">
+            <ul class="service-list">
               <% sec.items.forEach(function (row) { %>
-              <div class="teaching-block__timeline-item" role="listitem">
-                <p class="teaching-block__timeline-text">
-                  <% if (row.html) { %>
-                  <%- row.html %>
-                  <% } else { %>
-                  <%= row.text %>
-                  <% } %>
-                </p>
-              </div>
+              <li class="service-list__item">
+                <% if (row.html) { %>
+                <%- row.html %>
+                <% } else { %>
+                <%= row.text %>
+                <% } %>
+              </li>
               <% }); %>
-            </div>
+            </ul>
             <% } %>
           </section>
           <% }); %>

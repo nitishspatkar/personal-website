@@ -4,18 +4,28 @@ title: Nitish Patkar
 
 menu:
   main:
+    - name: Teaching
+      url: student-projects/
+      weight: 1
+    - name: Supervision
+      url: supervision/
+      weight: 2
+    - name: Innovation Projects
+      url: innovation-projects/
+      weight: 3
     - name: Community Service
       url: research/
-      weight: 1
-    - name: Research Projects
-      url: innovation-projects/
-      weight: 2
-    - name: Teaching and supervision
-      url: student-projects/
-      weight: 3
+      weight: 4
+    - name: Misc
+      url: misc/
+      weight: 5
 
 params:
-  cvPdfUrl: /pdfs/cv/Patkar_CV_April2026.pdf
+  cvDownloads:
+    - name: One-pager CV
+      url: /pdfs/cv/Patkar_CV_July2026.pdf
+    - name: Research CV
+      url: /pdfs/cv/Patkar_CV_academic_July2026.pdf
   GoogleAnalyticsID: "G-JHN7YQWQWR"
   # Optional: set alone to override default meta description (otherwise profileMode.subtitle is used).
   # description: "…"
@@ -28,9 +38,9 @@ params:
 
   socialIcons:
     - name: One Pager CV
-      url: /pdfs/cv/Patkar_CV_April2026.pdf
+      url: /pdfs/cv/Patkar_CV_July2026.pdf
     - name: Research CV
-      url: /pdfs/cv/Patkar_Research_CV.pdf
+      url: /pdfs/cv/Patkar_CV_academic_July2026.pdf
     - name: Email
       url: mailto:nitishspatkar@gmail.com
     - name: Google Scholar
@@ -38,4 +48,4 @@ params:
     - name: GitHub
       url: https://github.com/nitishspatkar
     - name: LinkedIn
-      url: https://www.linkedin.com/in/nitishpatkar/
+      url: https://www.linkedin.com/in/nitishspatkar/

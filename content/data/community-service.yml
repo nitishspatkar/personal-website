@@ -22,8 +22,8 @@ sections:
   - id: other-service
     title: Other service
     items:
-      - "IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER): co-reviewer (2020)."
       - md: "International Conference on Agile Software Development (XP): local and web chair, [XP'25](https://conf.researchr.org/home/xp-2025) (2025)."
-      - "International Workshop on Crowd-Based Requirements Engineering: co-organizer (2025, 2026)."
-      - md: "International Requirements Engineering Board (IREB): member of the [Special Interest Group on Digital Sustainability](https://ireb.org/de/community/special-interest-group/sig-sustainability) (from 2024)."
+      - md: "International Conference on ICT for Sustainability (ICT4S): student volunteer co-chair and local organization, [ICT4S 2026](https://conf.researchr.org/home/ict4s-2026) (2026)."
+      - md: "International Workshop on Crowd-Based Requirements Engineering: co-organizer, [CrowdRE'26](https://crowdre.github.io/ws-2026/) (2025, 2026)."
       - "University of Zurich: Requirements Engineering exams (2023, 2024)."
+      - "IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER): co-reviewer (2020)."

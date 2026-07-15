@@ -7,7 +7,6 @@
   <%- include('partials/header') %>
   <main class="site-main site-main--home">
     <section class="hero hero--editorial">
-      <div class="hero__gradient"></div>
       <div class="hero__inner layout-wide">
         <div class="hero__intro">
           <% if (heroNarrativeHtml) { %>
@@ -55,7 +54,6 @@
             </article>
             <% }); %>
           </div>
-          <p class="home-more"><a class="home-more__link" href="<%= navHref('work_experiences/') %>">Full narrative &amp; older roles →</a></p>
         </section>
         <% } %>
       </div>
@@ -95,23 +93,6 @@
         <% } %>
       </aside>
     </div>
-    <% } %>
-
-    <% if (cv && cv.highlights && cv.highlights.length) { %>
-    <section class="highlights-section layout-wide">
-      <div class="section-heading">
-        <span class="section-heading__rule" aria-hidden="true"></span>
-        <h2 class="section-heading__label">Selected recognition &amp; service</h2>
-      </div>
-      <div class="highlight-grid">
-        <% cv.highlights.forEach(function (h) { %>
-        <div class="highlight-card highlight-card--<%= h.tone || 'surface' %>">
-          <h3 class="highlight-card__title"><%= h.title %></h3>
-          <p class="highlight-card__body"><%= h.body %></p>
-        </div>
-        <% }); %>
-      </div>
-    </section>
     <% } %>
   </main>
   <%- include('partials/footer') %>

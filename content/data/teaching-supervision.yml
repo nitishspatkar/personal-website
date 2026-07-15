@@ -1,19 +1,8 @@
-title: Teaching and supervision
-description: Courses, coaching, and student projects at FHNW and the University of Bern.
+title: Teaching
+description: Courses and coaching at FHNW and the University of Bern.
 
 intro: >-
   
-
-# Key figures (highlight-style boxes)
-stats:
-  - label: Theses supervised
-    value: "~18"
-    sub: Bachelor's & master's combined
-    tone: primary
-  - label: Students in SE projects
-    value: "~200"
-    sub: Four years of semester-long teams
-    tone: secondary
 
 teaching_blocks:
   - id: fhnw
@@ -28,7 +17,6 @@ teaching_blocks:
       - Certificate of Advanced Studies (CAS) in Digitalization and Sustainability (FS23)
       - Projekt 3 & 4 Informatik — agile coach on year-long industry projects (FS24, HS24, FS23, HS23)
       - Projekt 1 & 2 Informatik — team coach on year-long internal projects (RUP) (HS22, FS22)
-      - Supervised about 18 bachelor’s and master’s theses and about 22 student applied research projects (problem identification through reporting).
 
   - id: bern
     period: Mar 2018 – Feb 2022
@@ -37,8 +25,3 @@ teaching_blocks:
     items:
       - Led and supervised semester-long software engineering projects for ~200 students over four years (full-stack web applications from scratch).
       - Independent instructor for the Seminar in Software Engineering (BSc/MSc) — research landscape and prototypical tools.
-      - Supervised one bachelor’s and two master’s theses (problem identification, design, validation).
-
-student_work_heading: Student projects & theses by year
-student_work_intro: >-
-  Bachelor’s and master’s theses. Open a year to see the full list.

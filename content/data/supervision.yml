@@ -1,0 +1,19 @@
+title: Supervision
+description: Thesis and applied project supervision at FHNW and the University of Bern.
+
+intro: >-
+  Bachelor’s and master’s theses and student applied research projects.
+
+stats:
+  - label: Theses supervised
+    value: "~18"
+    sub: Bachelor's & master's combined
+    tone: primary
+  - label: Students in SE projects
+    value: "~200"
+    sub: Four years of semester-long teams
+    tone: secondary
+
+student_work_heading: Student projects & theses by year
+student_work_intro: >-
+  Bachelor’s and master’s theses. Open a year to see the full list.

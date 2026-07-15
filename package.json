@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node --watch --watch-path=content/data --watch-path=content/short_bio.md server.js",
+    "dev": "node --watch --watch-path=server.js --watch-path=config.yml --watch-path=views --watch-path=content/data --watch-path=content/short_bio.md server.js",
     "build": "node scripts/static-export.js",
     "check-pdfs": "node scripts/check-pdfs.js"
   },

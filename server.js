@@ -40,7 +40,18 @@ const defaultMetaDescription =
   site.params?.description || profile.subtitle || undefined;
 const socialIcons = site.params?.socialIcons || [];
 const gaId = site.params?.GoogleAnalyticsID;
-const cvPdfUrl = site.params?.cvPdfUrl || "/pdfs/cv/Patkar_CV_April2026.pdf";
+const cvDownloads = (() => {
+  const list = site.params?.cvDownloads;
+  if (Array.isArray(list) && list.length) {
+    return list.filter((d) => d && d.url && d.name);
+  }
+  const fromSocial = (site.params?.socialIcons || []).filter(
+    (s) => s && s.url && String(s.url).includes("/pdfs/cv/") && s.name
+  );
+  if (fromSocial.length) return fromSocial.map((s) => ({ name: s.name, url: s.url }));
+  const legacy = site.params?.cvPdfUrl;
+  return legacy ? [{ name: "Download CV", url: legacy }] : [];
+})();
 
 function loadCv() {
   try {
@@ -59,16 +70,31 @@ function loadResearchProjects() {
   } catch (e) {
     console.warn("content/data/research-projects.yml:", e.message);
     return {
-      title: "Research Projects",
-      project_blocks: [],
+      title: "Innovation Projects",
+      pi_projects: [],
+      collaborator_summary: null,
     };
   }
 }
 
-function loadTeachingSupervision() {
+function loadTeaching() {
+  try {
+    return yaml.load(
+      fs.readFileSync(path.join(CONTENT_DATA, "teaching-supervision.yml"), "utf8")
+    );
+  } catch (e) {
+    console.warn("content/data/teaching-supervision.yml:", e.message);
+    return {
+      title: "Teaching",
+      teaching_blocks: [],
+    };
+  }
+}
+
+function loadSupervision() {
   try {
     const data = yaml.load(
-      fs.readFileSync(path.join(CONTENT_DATA, "teaching-supervision.yml"), "utf8")
+      fs.readFileSync(path.join(CONTENT_DATA, "supervision.yml"), "utf8")
     );
     const jsonPath = path.join(CONTENT_DATA, "student-projects-years.json");
     let studentYears = {};
@@ -81,15 +107,26 @@ function loadTeachingSupervision() {
     return { ...data, studentYears, yearOrder };
   } catch (e) {
     console.warn(
-      "content/data/teaching-supervision.yml or student-projects-years.json:",
+      "content/data/supervision.yml or student-projects-years.json:",
       e.message
     );
     return {
-      title: "Teaching and supervision",
+      title: "Supervision",
       stats: [],
-      teaching_blocks: [],
       studentYears: {},
       yearOrder: [],
+    };
+  }
+}
+
+function loadMisc() {
+  try {
+    return yaml.load(fs.readFileSync(path.join(CONTENT_DATA, "misc.yml"), "utf8"));
+  } catch (e) {
+    console.warn("content/data/misc.yml:", e.message);
+    return {
+      title: "Misc",
+      highlights: [],
     };
   }
 }
@@ -182,7 +219,7 @@ function renderPage(res, view, locals) {
     gaId,
     navHref,
     socialIcons,
-    cvPdfUrl,
+    cvDownloads,
     ...locals,
     isHome: locals.path === "/",
   });
@@ -196,19 +233,39 @@ function render404(res, req) {
     gaId,
     navHref,
     socialIcons,
-    cvPdfUrl,
+    cvDownloads,
     title: "Not found",
     path: req.path,
   });
 }
 
 app.get("/student-projects/", (req, res) => {
-  const teaching = loadTeachingSupervision();
+  const teaching = loadTeaching();
   renderPage(res, "teaching-supervision", {
-    title: teaching.title || "Teaching and supervision",
+    title: teaching.title || "Teaching",
     description: teaching.description || defaultMetaDescription,
     teaching,
     path: "/student-projects/",
+  });
+});
+
+app.get("/supervision/", (req, res) => {
+  const supervision = loadSupervision();
+  renderPage(res, "supervision", {
+    title: supervision.title || "Supervision",
+    description: supervision.description || defaultMetaDescription,
+    supervision,
+    path: "/supervision/",
+  });
+});
+
+app.get("/misc/", (req, res) => {
+  const misc = loadMisc();
+  renderPage(res, "misc", {
+    title: misc.title || "Misc",
+    description: misc.description || defaultMetaDescription,
+    misc,
+    path: "/misc/",
   });
 });
 
@@ -248,6 +305,8 @@ const pageRoutes = [
 const redirectSlugs = [
   "research",
   "student-projects",
+  "supervision",
+  "misc",
   "random",
   "work_experiences",
   "short_bio",
@@ -276,7 +335,7 @@ for (const [urlPath, rel, fallbackTitle] of pageRoutes) {
 app.get("/innovation-projects/", (req, res) => {
   const research = loadResearchProjects();
   renderPage(res, "research-projects", {
-    title: research.title || "Research Projects",
+    title: research.title || "Innovation Projects",
     description: research.description || defaultMetaDescription,
     research,
     path: "/innovation-projects/",
@@ -311,6 +370,8 @@ app.get("/sitemap.xml", (req, res) => {
     "research/",
     "innovation-projects/",
     "student-projects/",
+    "supervision/",
+    "misc/",
     "work_experiences/",
     "short_bio/",
     ...innovationProjects().map((p) => `innovation-projects/${p.slug}/`),

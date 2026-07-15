@@ -49,6 +49,11 @@ function refsFromConfig() {
     fs.readFileSync(path.join(ROOT, "config.yml"), "utf8")
   );
   const refs = [];
+  for (const d of cfg.params?.cvDownloads || []) {
+    if (d?.url && d.url.startsWith("/pdfs/")) {
+      refs.push(d.url.replace(/^\/pdfs\//, ""));
+    }
+  }
   const cv = cfg.params?.cvPdfUrl;
   if (cv && cv.startsWith("/pdfs/")) refs.push(cv.replace(/^\/pdfs\//, ""));
   for (const s of cfg.params?.socialIcons || []) {

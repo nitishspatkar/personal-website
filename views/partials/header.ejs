@@ -5,16 +5,40 @@
     <% } else { %>
     <a class="site-logo" href="/"><%= siteTitle %></a>
     <% } %>
-    <nav class="site-nav" aria-label="Main">
-      <% navItems.forEach(function (item) {
-        var href = navHref(item.url);
-        var active = (path === href) || (href.length > 1 && path.indexOf(href) === 0);
-      %>
-        <a class="site-nav__link<%= active ? ' is-active' : '' %>" href="<%= href %>"><%= item.name %></a>
-      <% }); %>
-    </nav>
-    <% if (typeof cvPdfUrl !== 'undefined' && cvPdfUrl) { %>
-    <a class="btn-cv" href="<%= cvPdfUrl %>">Download CV</a>
-    <% } %>
+
+    <button
+      type="button"
+      class="nav-toggle"
+      id="nav-toggle"
+      aria-controls="site-nav-panel"
+      aria-expanded="false"
+      aria-label="Open menu"
+    >
+      <span class="nav-toggle__bars" aria-hidden="true">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </span>
+    </button>
+
+    <div class="site-header__panel" id="site-nav-panel">
+      <div class="site-header__panel-inner">
+        <nav class="site-nav" aria-label="Main">
+          <% navItems.forEach(function (item) {
+            var href = navHref(item.url);
+            var active = (path === href) || (href.length > 1 && path.indexOf(href) === 0);
+          %>
+            <a class="site-nav__link<%= active ? ' is-active' : '' %>" href="<%= href %>"><%= item.name %></a>
+          <% }); %>
+        </nav>
+        <% if (typeof cvDownloads !== 'undefined' && cvDownloads && cvDownloads.length) { %>
+        <div class="btn-cv-group">
+          <% cvDownloads.forEach(function (cv, i) { %>
+          <a class="btn-cv<%= i > 0 ? ' btn-cv--secondary' : '' %>" href="<%= cv.url %>"><%= cv.name %></a>
+          <% }); %>
+        </div>
+        <% } %>
+      </div>
+    </div>
   </div>
 </header>

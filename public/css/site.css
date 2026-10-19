@@ -1005,13 +1005,7 @@ body.nav-open .site-header__panel {
   padding: 0.85rem 0;
   border-bottom: 1px solid color-mix(in srgb, var(--outline-variant) 20%, transparent);
   display: grid;
-  gap: 0.25rem 1rem;
-  grid-template-columns: 1fr auto;
-  grid-template-areas:
-    "title pdf"
-    "authors pdf"
-    "meta meta";
-  align-items: start;
+  gap: 0.25rem;
 }
 
 .teaching-entry:last-child {
@@ -1020,7 +1014,6 @@ body.nav-open .site-header__panel {
 }
 
 .teaching-entry__title {
-  grid-area: title;
   font-weight: 600;
   color: var(--on-surface);
   font-size: 0.9375rem;
@@ -1029,49 +1022,14 @@ body.nav-open .site-header__panel {
 }
 
 .teaching-entry__authors {
-  grid-area: authors;
   font-size: 0.8125rem;
   color: var(--on-surface-variant);
 }
 
 .teaching-entry__meta {
-  grid-area: meta;
   font-size: 0.75rem;
   font-style: italic;
   color: var(--on-surface-variant);
-}
-
-.teaching-entry__pdf {
-  grid-area: pdf;
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: var(--primary);
-  white-space: nowrap;
-  justify-self: end;
-  align-self: start;
-  padding-top: 0.1rem;
-}
-
-.teaching-entry__pdf:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 520px) {
-  .teaching-entry {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "title"
-      "authors"
-      "meta"
-      "pdf";
-  }
-
-  .teaching-entry__pdf {
-    justify-self: start;
-  }
 }
 
 .section {

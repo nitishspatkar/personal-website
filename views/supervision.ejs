@@ -53,9 +53,6 @@
                   <% if (e.meta) { %>
                   <span class="teaching-entry__meta"><%= e.meta %></span>
                   <% } %>
-                  <% if (e.pdf) { %>
-                  <a class="teaching-entry__pdf" href="<%= e.pdf %>"<% if (e.external) { %> target="_blank" rel="noopener noreferrer"<% } %>>PDF</a>
-                  <% } %>
                 </li>
                 <% }); %>
               </ul>

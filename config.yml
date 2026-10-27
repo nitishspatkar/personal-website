@@ -22,7 +22,7 @@ menu:
 
 params:
   cvDownloads:
-    - name: One-pager CV
+    - name: Industry CV
       url: /pdfs/cv/Patkar_CV_July2026.pdf
     - name: Research CV
       url: /pdfs/cv/Patkar_CV_academic_July2026.pdf
@@ -37,7 +37,7 @@ params:
     imageHeight: 160
 
   socialIcons:
-    - name: One Pager CV
+    - name: Industry CV
       url: /pdfs/cv/Patkar_CV_July2026.pdf
     - name: Research CV
       url: /pdfs/cv/Patkar_CV_academic_July2026.pdf
